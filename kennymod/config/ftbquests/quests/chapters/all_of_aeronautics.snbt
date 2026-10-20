@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "all_of_aeronautics"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "test_images:textures/islan.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5F0D8140E95EEFDE"
+	images: [
+		{
+			height: 25.0d
+			id: "18C60818197DF5A2"
+			image: "test_images:textures/islan.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			id: "240E9B67B189AF9D"
+			image: "test_images:textures/clouds_01.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 10.0d
+			id: "1F8316FE0A9CC74C"
+			image: "test_images:textures/clouds_02.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.0d
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			height: 10.0d
+			id: "5B72B9CC043CEB77"
+			image: "test_images:textures/clouds_04.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 20.0d
+			id: "3A0821D42AAF4C8B"
+			image: "test_images:textures/clouds_05.png"
+			order: -1
+			rotation: 0.0d
+			width: 34.0d
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			height: 32.0d
+			id: "0E66A694D7ECB48A"
+			image: "test_images:textures/clouds_06.png"
+			order: -1
+			rotation: 0.0d
+			width: 48.0d
+			x: -7.5d
+			y: 6.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23DBE8AFA5B9F85E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/house.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "31A2E24DD4544532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B3B9109F682ED58"
+				table_id: 6953509518227172797L
+				type: "choice"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "731E99ABEB0168D2"
+				type: "checkmark"
+			}]
+			x: -1.3928571428571388d
+			y: -6.785714285714306d
+		}
+		{
+			dependencies: ["512FFA2819FA0D17"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/ffam.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "62DA38E28493470B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45A88576B3CFFEAA"
+				table_id: 7791969399741355428L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "735B514F63A15A43"
+				type: "checkmark"
+			}]
+			x: -6.964285714285715d
+			y: -2.8571428571428754d
+		}
+		{
+			dependencies: ["5343A824868386DC"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/zavob.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "52096B8F7ADE7042"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E5BFEC12FC006F"
+				table_id: 6285570638978265231L
+				type: "random"
+			}]
+			shape: "none"
+			size: 4.3d
+			tasks: [{
+				id: "761654FB37E0F8D8"
+				type: "checkmark"
+			}]
+			x: -0.7499999999999929d
+			y: -2.1071428571428825d
+		}
+		{
+			dependencies: ["770E7323F67238A3"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/uan_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "7B4616F712E7F33F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F9901873C24AF7"
+				table_id: 2639527295809354184L
+				type: "random"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "52D7BBBF142F9E85"
+				type: "checkmark"
+			}]
+			x: -0.0714285714285694d
+			y: 2.64d
+		}
+		{
+			dependencies: ["61DBD99A55913585"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/trub_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0C10CD527704BF02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EFE7EB3E37D06CF"
+				table_id: 3026418949592973317L
+				type: "random"
+			}]
+			shape: "none"
+			size: 6.0d
+			tasks: [{
+				id: "190906AFC16F36DE"
+				type: "checkmark"
+			}]
+			x: 4.464285714285708d
+			y: 0.2142857142857153d
+		}
+		{
+			dependencies: ["57DAA9EC209675F8"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/reaktorrr_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52207D5394CE08E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38802E8849507925"
+				table_id: 3026418949592973314L
+				type: "random"
+			}]
+			shape: "none"
+			size: 7.0d
+			tasks: [{
+				id: "5897EDEE19622B70"
+				type: "checkmark"
+			}]
+			x: 1.642857142857146d
+			y: 3.0d
+		}
+		{
+			dependencies: ["471878A7FF47683D"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/shh_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "1EB88511499171A0"
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "3D14CB8AB0439C11"
+				type: "checkmark"
+			}]
+			x: -4.928571428571445d
+			y: 3.7857142857142847d
+		}
+		{
+			dependencies: ["6DB643FD1D464FDD"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/ad.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "307673A9FCBAAD3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450FF7ED0915FAB0"
+				table_id: 2828543943310548900L
+				type: "random"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "222FD477B47C9169"
+				type: "checkmark"
+			}]
+			x: -7.14285714285716d
+			y: 7.714285714285715d
+		}
+		{
+			dependencies: ["4BAB8DC00A37071F"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/traintopussan_2.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "7BEEF193DEA561FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B9533C0F450E74D"
+				table_id: 3291267102737388588L
+				type: "random"
+			}]
+			shape: "none"
+			size: 6.0d
+			tasks: [{
+				id: "7E1D0915BEA80D60"
+				type: "checkmark"
+			}]
+			x: -5.071428571428591d
+			y: 7.642857142857146d
+		}
+		{
+			dependencies: ["79F2B4CFCC006AE2"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/penis_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "4D3306677CE7F22D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61E3DFDFC71CCEF0"
+				table_id: 3026418949592973319L
+				type: "random"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "705BA8BADA49B955"
+				type: "checkmark"
+			}]
+			x: -4.428571428571445d
+			y: 0.2857142857142847d
+		}
+		{
+			dependencies: ["66C035AA37243BDA"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/dirijabl_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3B56D52E8EA7093D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D8534CA6F75B33E"
+				table_id: 7272356452206804455L
+				type: "random"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "12C842B5FCA82819"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["51FF187700C8D82B"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/end.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "50616F41325ADCB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "062E49DBC758ED8E"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "23F6366700822653"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "create_sa:chains"
+			}
+			id: "015C122792DDE3AD"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				id: "181A00789B663482"
+				stage: ""
+				type: "gamestage"
+			}]
+			x: 24.5d
+			y: 21.0d
+		}
+	]
+}

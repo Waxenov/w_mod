@@ -1,0 +1,16 @@
+#Gameplay rules for the infected biome.
+[gameplay]
+	#Let the infected biome spread through the Overworld once the Ender Dragon has been killed.
+	#With this disabled the biome never generates.
+	unlockOnDragonKill = true
+	#Show the Interworld cutscene when the biome is unlocked.
+	#Players are moved to the Interworld for a moment and then returned to where they stood.
+	#With this disabled the biome is unlocked silently.
+	playRitual = true
+	#Unlock the biome for players who already own the 'Free the End' advancement.
+	#This repairs worlds where the mod's saved data was lost, and worlds where the
+	#dragon was killed before this mod was installed.
+	restoreFromAdvancement = true
+	#Keep the Interworld read-only: no block breaking, placing or explosion damage.
+	#Creative and spectator players are never restricted.
+	protectInterworld = true

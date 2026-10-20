@@ -1,0 +1,119 @@
+{
+  "phase1": {
+    "hpThreshold": 0.5,
+    "projectileResist": 0.75,
+    "slam": {
+      "damage": 24.0,
+      "cooldown": 40,
+      "knockback": 10.0
+    },
+    "swing": {
+      "damage": 18.0,
+      "cooldown": 35,
+      "knockback": 6.67
+    },
+    "shortSpin": {
+      "damage": 14.0,
+      "cooldown": 160,
+      "knockback": 10.0
+    },
+    "longSpin": {
+      "damage": 10.0,
+      "cooldown": 400,
+      "knockback": 10.0
+    },
+    "leap": {
+      "damage": 16.0,
+      "cooldown": 200,
+      "knockback": 6.67
+    },
+    "laser": {
+      "damage": 20.0,
+      "cooldown": 100,
+      "knockback": 0.0
+    },
+    "missile": {
+      "damage": 15.0,
+      "cooldown": 400,
+      "knockback": 0.0
+    }
+  },
+  "phase2": {
+    "hpThreshold": 0.25,
+    "projectileResist": 0.5,
+    "slam": {
+      "damage": 24.0,
+      "cooldown": 40,
+      "knockback": 10.0
+    },
+    "swing": {
+      "damage": 18.0,
+      "cooldown": 35,
+      "knockback": 6.67
+    },
+    "shortSpin": {
+      "damage": 14.0,
+      "cooldown": 160,
+      "knockback": 10.0
+    },
+    "longSpin": {
+      "damage": 10.0,
+      "cooldown": 400,
+      "knockback": 10.0
+    },
+    "leap": {
+      "damage": 16.0,
+      "cooldown": 200,
+      "knockback": 6.67
+    },
+    "laser": {
+      "damage": 20.0,
+      "cooldown": 100,
+      "knockback": 0.0
+    },
+    "missile": {
+      "damage": 15.0,
+      "cooldown": 400,
+      "knockback": 0.0
+    }
+  },
+  "phase3": {
+    "hpThreshold": 0.0,
+    "projectileResist": 0.25,
+    "slam": {
+      "damage": 24.0,
+      "cooldown": 40,
+      "knockback": 10.0
+    },
+    "swing": {
+      "damage": 18.0,
+      "cooldown": 35,
+      "knockback": 6.67
+    },
+    "shortSpin": {
+      "damage": 14.0,
+      "cooldown": 160,
+      "knockback": 10.0
+    },
+    "longSpin": {
+      "damage": 10.0,
+      "cooldown": 400,
+      "knockback": 10.0
+    },
+    "leap": {
+      "damage": 16.0,
+      "cooldown": 200,
+      "knockback": 6.67
+    },
+    "laser": {
+      "damage": 20.0,
+      "cooldown": 100,
+      "knockback": 0.0
+    },
+    "missile": {
+      "damage": 15.0,
+      "cooldown": 200,
+      "knockback": 0.0
+    }
+  }
+}

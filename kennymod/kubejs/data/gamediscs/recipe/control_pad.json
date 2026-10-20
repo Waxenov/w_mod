@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BQB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "minecraft:buttons"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    }
+  },
+  "result": {
+    "id": "gamediscs:control_pad",
+    "count": 1
+  }
+}

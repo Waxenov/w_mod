@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_concrete"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    }
+  },
+  "result": {
+    "id": "uc:compressed_pink_concrete",
+    "count": 1
+  }
+}

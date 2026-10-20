@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_white_concrete"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_white_concrete",
+    "count": 8
+  }
+}

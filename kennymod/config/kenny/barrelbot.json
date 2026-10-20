@@ -1,0 +1,56 @@
+{
+  "general": {
+    "maxHealth": 140.0,
+    "armor": 8.0,
+    "attackDamage": 12.0,
+    "followRange": 40.0,
+    "movementSpeed": 0.4,
+    "knockbackResistance": 1.0
+  },
+  "spawning": {
+    "biomes": [
+      "dragonbiom:infected_plain"
+    ],
+    "daySpawnWeight": 4,
+    "dayMinGroupSize": 1,
+    "dayMaxGroupSize": 2,
+    "nightSpawnWeight": 8,
+    "nightMinGroupSize": 2,
+    "nightMaxGroupSize": 4,
+    "lootDrops": []
+  },
+  "attack1": {
+    "damage": 12.0,
+    "range": 3,
+    "cooldown": 80,
+    "knockbackScale": 0.75
+  },
+  "attack2": {
+    "damage": 3.5,
+    "range": 3,
+    "cooldown": 40,
+    "knockbackScale": 0.75
+  },
+  "attack3": {
+    "cannonBallDamage": 8.0,
+    "fireBallDamage": 4.0,
+    "minRange": 5.0,
+    "cooldown": 280
+  },
+  "ult": {
+    "minRange": 5.0,
+    "cooldown": 300
+  },
+  "approach": {
+    "stopDist": 3.0,
+    "strafeDist": 5.0,
+    "sprintDist": 12.0,
+    "sprintSpeed": 1.0,
+    "walkSpeed": 0.3,
+    "strafeSpeed": 0.6,
+    "strafeRange": 4.0,
+    "strafeMinTicks": 20,
+    "strafeMaxTicks": 40,
+    "cooldown": 40
+  }
+}

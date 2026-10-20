@@ -1,0 +1,18 @@
+filename = 'createfood-neoforge-1.21.1-2.7.1.jar'
+name = 'Create: Food'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createfood-neoforge-1.21.1-2.7.1.jar'
+
+[download]
+hash = 'e23381ca8d6e7c95bdea48d4a2b54b817a50eb5a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8603640
+project-id = 959439

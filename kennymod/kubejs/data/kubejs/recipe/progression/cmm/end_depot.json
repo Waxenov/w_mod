@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createmoremachines:netherite_depot"
+    },
+    {
+      "item": "createmoremachines:end_alloy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:end_depot"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 200
+}

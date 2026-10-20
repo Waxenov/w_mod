@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EPE",
+    "SCS",
+    "RQR"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "kubejs:copper_spool"
+    },
+    "C": {
+      "item": "simplemagnets:basic_demagnetization_coil"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    }
+  },
+  "result": {
+    "id": "simplemagnets:advanced_demagnetization_coil"
+  }
+}

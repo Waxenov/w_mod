@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:copper_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "createimmersivetacz:pneumatic_pistol_casing",
+      "count": 4
+    }
+  ]
+}

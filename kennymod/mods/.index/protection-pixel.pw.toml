@@ -1,0 +1,21 @@
+filename = 'protection_pixel-2.2.1-neoforge-1.21.1.jar'
+name = 'Create: Protection Pixel'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'protection_pixel-2.2.1-neoforge-1.21.1.jar'
+
+[download]
+hash = 'c35da610425f735eea4d027ad159c88de6ec6e3f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7549821
+project-id = 1023409
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'

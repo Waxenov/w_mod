@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:compressed_resonant_core"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "kubejs:resonant_mechanical_core"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        },
+        {
+          "item": "kubejs:induction_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        },
+        {
+          "item": "dragonbiom:infected_crystall"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        },
+        {
+          "item": "kubejs:iskrite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        },
+        {
+          "item": "createnuclear:reactor_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        },
+        {
+          "item": "createnuclear:graphene"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_resonant_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_resonant_core"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:unfinished_resonant_core"
+  }
+}

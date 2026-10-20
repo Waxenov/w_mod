@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uc:compressed_oak_planks"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    }
+  },
+  "result": {
+    "id": "uc:double_compressed_oak_planks",
+    "count": 1
+  }
+}

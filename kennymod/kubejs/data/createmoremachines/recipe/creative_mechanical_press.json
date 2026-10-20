@@ -1,0 +1,52 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GSBSG",
+    "LBTBL",
+    "PCMCP",
+    "LBRBL",
+    "GUHUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_mechanical_press"
+    },
+    "L": {
+      "item": "createmoremachines:binder_bucket"
+    },
+    "T": {
+      "item": "create:creative_motor"
+    },
+    "P": {
+      "item": "create:mechanical_press"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:mechanical_piston"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    },
+    "H": {
+      "item": "createnuclear:reactor_core"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:creative_mechanical_press",
+    "count": 1
+  },
+  "show_notification": false
+}

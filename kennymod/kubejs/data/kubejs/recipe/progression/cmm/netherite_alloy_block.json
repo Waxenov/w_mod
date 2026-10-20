@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "createmoremachines:netherite_alloy"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:netherite_alloy_block",
+    "count": 1
+  }
+}

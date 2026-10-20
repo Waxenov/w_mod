@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_moss_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:moss_block",
+    "count": 8
+  }
+}

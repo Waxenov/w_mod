@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "MCM",
+    "PAP",
+    "RER"
+  ],
+  "key": {
+    "M": {
+      "tag": "kubejs:magnets"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "E": {
+      "item": "simplemagnets:advancedmagnet"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_magnet_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_magnet_upgrade"
+    }
+  ]
+}

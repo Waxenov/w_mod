@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "barrelbot:block/example_block" }
+  }
+}

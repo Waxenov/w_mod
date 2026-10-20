@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GSCSG",
+    "RPMPR",
+    "CMIMC",
+    "RPMPR",
+    "GSCSG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "createarbitrary:creative_casing"
+    },
+    "R": {
+      "item": "create:rotation_speed_controller"
+    },
+    "P": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "I": {
+      "item": "kubejs:induction_mechanism"
+    }
+  },
+  "result": {
+    "id": "create:creative_motor",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,31 @@
+filename = 'betterf1-NeoForge-1.1-1.21.5.jar'
+name = 'Better F1 Reborn'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1+1.21.7 ( NeoForge )'
+
+[download]
+hash = '43169a55c38ad29f611f08145d41250abd1cc302'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6707094
+project-id = 959591

@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "PAP",
+    "IMI"
+  ],
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:compacting_upgrade"
+    },
+    "I": {
+      "item": "uc:compressed_iron_block"
+    },
+    "M": {
+      "item": "create:mechanical_press"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_compacting_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_compacting_upgrade"
+    }
+  ]
+}

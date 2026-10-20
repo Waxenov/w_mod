@@ -1,0 +1,21 @@
+filename = 'createmoremachines-1.21.1-2.7.jar'
+name = 'Create More Machines'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createmoremachines-1.21.1-2.7.jar'
+
+[download]
+hash = 'f7c2c76f08dc454a34ccdc10c462914dfffd9412'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8163651
+project-id = 1478956
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

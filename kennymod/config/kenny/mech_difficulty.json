@@ -1,0 +1,8 @@
+{
+  "baseHp": 3000.0,
+  "hpMultiplier": 1.0,
+  "damageMultiplier": 1.0,
+  "knockbackMultiplier": 1.0,
+  "Сколько хп добавлять следующему призыву": 0.1,
+  "опыт": 0.0
+}

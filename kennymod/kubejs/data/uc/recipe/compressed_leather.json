@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    }
+  },
+  "result": {
+    "id": "uc:compressed_leather",
+    "count": 1
+  }
+}

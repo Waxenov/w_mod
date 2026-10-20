@@ -1,0 +1,8 @@
+#Visual effects. These only affect your own game.
+[visuals]
+	#Tint the night sky and the fog while standing in the infected biome.
+	atmosphereEffects = true
+	#How strong the tint gets at full biome coverage. 0 disables it, 1 is the full effect.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	atmosphereStrength = 1.0

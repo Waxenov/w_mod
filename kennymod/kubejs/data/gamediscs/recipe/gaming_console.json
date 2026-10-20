@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SDS",
+    "RPR",
+    "BCB"
+  ],
+  "key": {
+    "S": {
+      "item": "createnuclear:steel_ingot"
+    },
+    "D": {
+      "item": "gamediscs:display"
+    },
+    "R": {
+      "item": "gamediscs:redstone_circuit"
+    },
+    "P": {
+      "item": "gamediscs:processor"
+    },
+    "B": {
+      "item": "gamediscs:battery"
+    },
+    "C": {
+      "item": "gamediscs:control_pad"
+    }
+  },
+  "result": {
+    "id": "gamediscs:gaming_console",
+    "count": 1
+  }
+}

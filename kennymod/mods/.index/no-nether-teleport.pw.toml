@@ -1,0 +1,18 @@
+filename = 'nonether-neoforge-1.21.1-1.1.0.jar'
+name = 'No Nether Teleport'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'No Nether Teleport (NeoForge) - v1.1.0 - 1.21.1'
+
+[download]
+hash = 'f9b142fc4d3bcdeb00e2874383784158d8b86743'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7378242
+project-id = 822383

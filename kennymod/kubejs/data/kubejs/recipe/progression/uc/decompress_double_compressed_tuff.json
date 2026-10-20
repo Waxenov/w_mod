@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_tuff"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_tuff",
+    "count": 8
+  }
+}

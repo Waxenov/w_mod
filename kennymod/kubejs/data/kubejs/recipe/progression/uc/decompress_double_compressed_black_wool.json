@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_black_wool"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_black_wool",
+    "count": 8
+  }
+}

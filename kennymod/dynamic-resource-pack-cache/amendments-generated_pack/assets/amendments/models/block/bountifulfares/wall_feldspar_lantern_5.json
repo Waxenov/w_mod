@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/bountifulfares/wall_feldspar_lantern_5_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/bountifulfares/feldspar_lantern"
+		}
+	}
+}

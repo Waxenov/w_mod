@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_concrete"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    }
+  },
+  "result": {
+    "id": "uc:compressed_brown_concrete",
+    "count": 1
+  }
+}

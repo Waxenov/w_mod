@@ -1,0 +1,9 @@
+{
+  "order": 90,
+  "size": 1,
+  "icon": "vc_gliders:item/glider_slot",
+  "add_cosmetic": false,
+  "validators": [
+    "curios:tag"
+  ]
+}

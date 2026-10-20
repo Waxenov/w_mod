@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createarbitrary:polished_chorium_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "createarbitrary:polished_chorium_sheet"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CXC",
+    "ABA"
+  ],
+  "key": {
+    "X": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "A": {
+      "tag": "kubejs:magnets"
+    },
+    "B": {
+      "item": "create_sa:vault_component"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:magnet_upgrade"
+  }
+}

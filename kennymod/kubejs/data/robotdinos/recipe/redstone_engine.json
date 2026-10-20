@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "robotdinos:redstone_engine",
+      "chance": 120
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_redstone_engine"
+        },
+        {
+          "item": "robotdinos:coal_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_redstone_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_redstone_engine"
+        },
+        {
+          "item": "kubejs:copper_spool"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_redstone_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_redstone_engine"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_redstone_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_redstone_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_redstone_engine"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:unfinished_redstone_engine"
+  }
+}

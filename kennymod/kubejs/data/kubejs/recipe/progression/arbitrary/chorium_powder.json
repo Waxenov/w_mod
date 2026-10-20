@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_end_stone"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "createnuclear:uranium_powder"
+    },
+    {
+      "item": "createmoremachines:beyond_alloy"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createarbitrary:chorium_powder",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "superheated"
+}

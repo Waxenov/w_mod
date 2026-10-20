@@ -1,0 +1,109 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createmoremachines:beyond_casing"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "createarbitrary:creative_casing",
+      "chance": 70.0
+    },
+    {
+      "id": "createmoremachines:beyond_casing",
+      "chance": 15.0
+    },
+    {
+      "id": "createmoremachines:beyond_alloy",
+      "chance": 10.0
+    },
+    {
+      "id": "createarbitrary:polished_chorium_sheet",
+      "chance": 5.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_casing"
+        },
+        {
+          "item": "createarbitrary:creative_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_casing"
+        },
+        {
+          "item": "uc:compression_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_casing"
+        },
+        {
+          "item": "createarbitrary:polished_chorium_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_casing"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "createnuclear:uranium",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createarbitrary:incomplete_creative_casing"
+  }
+}

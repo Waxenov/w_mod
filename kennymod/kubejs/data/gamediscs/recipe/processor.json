@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "gamediscs:processor",
+      "chance": 120
+    },
+    {
+      "id": "create:electron_tube",
+      "chance": 0.08
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_game_processor"
+        },
+        {
+          "item": "gamediscs:redstone_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_game_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_game_processor"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_game_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_game_processor"
+        },
+        {
+          "item": "createnuclear:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_game_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_game_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_game_processor"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:unfinished_game_processor"
+  }
+}

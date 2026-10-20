@@ -1,0 +1,21 @@
+filename = 'stackrefill-1.21.1-4.9.jar'
+name = 'Stack Refill'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-4.9 | Stack Refill'
+
+[download]
+hash = 'fbdcdbef6b93d7b0227e15c41f2ba395efc4c4a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6713334
+project-id = 411813
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

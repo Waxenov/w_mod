@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice5_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "bountifulfares:block/sponge_cake_inside",
+		"top_up": "bountifulfares:block/sponge_cake_top",
+		"inner": "bountifulfares:block/sponge_cake_inside",
+		"bottom": "bountifulfares:block/sponge_cake_bottom",
+		"top": "bountifulfares:block/sponge_cake_top",
+		"particle": "bountifulfares:block/sponge_cake_inside",
+		"side": "bountifulfares:block/sponge_cake_inside"
+	}
+
+}

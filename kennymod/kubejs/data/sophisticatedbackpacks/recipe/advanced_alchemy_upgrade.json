@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "BCB",
+    "GAG",
+    "TMT"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:alchemy_upgrade"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "M": {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_alchemy_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_alchemy_upgrade"
+    }
+  ]
+}

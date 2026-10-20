@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "SRS",
+    "III"
+  ],
+  "key": {
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "result": {
+    "id": "simplemagnets:basic_demagnetization_coil"
+  }
+}

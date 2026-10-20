@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GFTFG",
+    "PCVCP",
+    "UBMBU",
+    "PCVCP",
+    "GFTFG"
+  ],
+  "key": {
+    "G": {"tag": "kubejs:compression_tiers/creative_gate"},
+    "F": {"item": "create:creative_fluid_tank"},
+    "T": {"item": "createmoremachines:creative_spout"},
+    "P": {"item": "create:mechanical_pump"},
+    "C": {"item": "createarbitrary:creative_casing"},
+    "V": {"item": "create_connected:fluid_vessel"},
+    "U": {"item": "createnuclear:uranium_bucket"},
+    "B": {"item": "createmoremachines:beyond_basin"},
+    "M": {"item": "createarbitrary:creative_mechanism"}
+  },
+  "result": {"id": "create_connected:creative_fluid_vessel", "count": 1},
+  "show_notification": false
+}

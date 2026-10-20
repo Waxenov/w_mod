@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IPI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "P": {
+      "item": "robotdinos:copper_armor_plating"
+    }
+  },
+  "result": {
+    "id": "robotdinos:iron_armor_plating",
+    "count": 1
+  }
+}

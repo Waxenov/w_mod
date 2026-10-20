@@ -1,0 +1,25 @@
+filename = 'CreateCyberGoggles-1.21.1-8.5.1-NeoForge.jar'
+name = 'Create: Cyber Goggles'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] 8.5.1 for Create 1.21.1-6.0.10'
+
+[download]
+hash = '89b4782c92b5f5531fe320a2cf3e5753ceb3ef09'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8804937
+project-id = 1233804
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

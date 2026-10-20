@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GAGAG",
+    "ACMCA",
+    "RBCBR",
+    "ACMCA",
+    "GAGAG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "A": {
+      "item": "createbigcannons:autocannon_ammo_container"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:creative_crate"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:creative_autocannon_ammo_container",
+    "count": 1
+  },
+  "show_notification": false
+}

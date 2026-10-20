@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RVR",
+    "BEB",
+    "RVR"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "B": {
+      "item": "kubejs:brass_frame"
+    },
+    "E": {
+      "item": "createbionics:simple_engine"
+    }
+  },
+  "result": {
+    "id": "createbionics:oxhauler_middle_item",
+    "count": 1
+  }
+}

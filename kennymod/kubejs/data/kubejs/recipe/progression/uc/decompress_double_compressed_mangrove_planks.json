@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_mangrove_planks"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_mangrove_planks",
+    "count": 8
+  }
+}

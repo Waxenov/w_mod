@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "BGB",
+    "SFS",
+    "BMB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "G": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "S": {
+      "item": "kubejs:brass_frame"
+    },
+    "F": {
+      "item": "createimmersivetacz:firing_mechanism"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "tacz:gun_smith_table"
+  }
+}

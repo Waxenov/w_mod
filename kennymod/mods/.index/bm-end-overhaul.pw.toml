@@ -1,0 +1,21 @@
+filename = 'bm_end_overhaul-1.0.0.jar'
+name = 'BM: End Overhaul'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BM: End Overhaul 1.0.0'
+
+[download]
+hash = 'bbcbc138ac016dc80ef18376a59df48fbe3ad31c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8408933
+project-id = 1605447
+
+[[x-prismlauncher-dependencies]]
+addonId = '1077985'
+type = 'OPTIONAL'

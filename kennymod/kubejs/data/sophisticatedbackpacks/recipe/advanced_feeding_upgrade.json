@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "FAM",
+    "CEC"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:golden_carrot"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "F": {
+      "item": "minecraft:cake"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:feeding_upgrade"
+    },
+    "M": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "E": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_feeding_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_feeding_upgrade"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "AMA",
+    "RER"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "A": {
+      "item": "create:attribute_filter"
+    },
+    "M": {
+      "item": "sophisticatedbackpacks:filter_upgrade"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_filter_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_filter_upgrade"
+    }
+  ]
+}

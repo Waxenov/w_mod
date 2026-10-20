@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create:basin",
+    "create:depot",
+    "create:deployer",
+    "create:mechanical_mixer",
+    "create:mechanical_press",
+    "create:spout"
+  ]
+}

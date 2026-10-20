@@ -1,0 +1,12 @@
+{
+  "tag.block.amendments.cauldron_heat_source": "Источник нагрева котла",
+  "tag.block.amendments.ceiling_banners": "Потолочные флаги",
+  "tag.block.amendments.skull_candles": "Свечи на черепах",
+  "tag.block.amendments.stairs_carpets": "Ковры на ступенях",
+  "tag.moonlight.amendments.soft_fluid.can_glow": "Может светиться",
+  "tag.moonlight.amendments.soft_fluid.cant_boil": "Нельзя кипятить",
+  "tag.moonlight.amendments.soft_fluid.cant_extinguish": "Не может тушить",
+  "tag.moonlight.amendments.soft_fluid.cant_go_in_liquid_cauldron": "Нельзя помещать в котёл с жидкостью",
+  "tag.moonlight.amendments.soft_fluid.no_tint_in_cauldron": "Без окрашивания в котле",
+  "tag.worldgen.amendments.structure.add_potion_cauldron": "Добавить котёл с зельем"
+}

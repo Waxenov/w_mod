@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:copper_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 50,
+      "fluid": "createimmersivetacz:gunpowder_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "createimmersivetacz:primer",
+      "count": 4
+    }
+  ]
+}

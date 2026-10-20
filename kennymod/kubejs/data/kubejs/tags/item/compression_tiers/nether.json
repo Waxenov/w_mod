@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "uc:compressed_basalt",
+    "uc:compressed_blackstone",
+    "uc:compressed_crimson_planks",
+    "uc:compressed_crimson_stem",
+    "uc:compressed_glowstone",
+    "uc:compressed_magma_block",
+    "uc:compressed_netherite_block",
+    "uc:compressed_netherrack",
+    "uc:compressed_soul_sand",
+    "uc:compressed_soul_soil",
+    "uc:compressed_warped_planks",
+    "uc:compressed_warped_stem",
+    "uc:double_compressed_basalt",
+    "uc:double_compressed_blackstone",
+    "uc:double_compressed_crimson_planks",
+    "uc:double_compressed_crimson_stem",
+    "uc:double_compressed_glowstone",
+    "uc:double_compressed_magma_block",
+    "uc:double_compressed_netherite_block",
+    "uc:double_compressed_netherrack",
+    "uc:double_compressed_soul_sand",
+    "uc:double_compressed_soul_soil",
+    "uc:double_compressed_warped_planks",
+    "uc:double_compressed_warped_stem"
+  ]
+}

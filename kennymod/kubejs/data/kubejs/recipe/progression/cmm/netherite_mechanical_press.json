@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createmoremachines:brass_mechanical_press"
+    },
+    {
+      "item": "createmoremachines:netherite_alloy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:netherite_mechanical_press"
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 150
+}

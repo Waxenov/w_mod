@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_compressed:crushed_nickel_pile"
+    }
+  ],
+  "results": [
+    {
+      "count": 81,
+      "id": "thermal:nickel_nugget"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "square"
+	filename: "00_tips"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "27CCC3DDE44A5209"
+	images: [
+		{
+			height: 7.5d
+			id: "335327B4929384AE"
+			image: "test_images:textures/aoa_logo.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			click_action: "open_uri:https://t.me/kennysborki"
+			height: 1.0d
+			id: "6ECC4E7B1EC5FB4B"
+			image: "test_images:textures/telegram.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			click_action: "open_uri:https://www.youtube.com/@KennnyMC"
+			height: 1.0d
+			id: "473B0915A6047F08"
+			image: "test_images:textures/youtube_tapped.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["506FE6310ECAACAE"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "4025A5C28B2CA71F"
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "03DA6A3366DE254C"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: -2.16d
+			y: 1.8d
+		}
+		{
+			dependencies: ["43937036F320DBD7"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "7056235488DAE94D"
+			rewards: [{
+				auto: "enabled"
+				id: "7B3620DB65347D28"
+				item: {
+					count: 1
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "36CF3631225BFAAA"
+				type: "checkmark"
+			}]
+			x: 5.76d
+			y: 0.36d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "25FD4B79D3AA2CA2"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "332D6B33F42F27D1"
+				item: {
+					count: 1
+					id: "bountifulfares:lapisberry_wine_bottle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "7B91432E73F8B3D5"
+				type: "checkmark"
+			}]
+			x: 5.04d
+			y: 3.24d
+		}
+		{
+			dependencies: ["43937036F320DBD7"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "14EEFBD92C5A5405"
+			rewards: [{
+				auto: "enabled"
+				id: "2B7DBA1F42ACFAFA"
+				item: {
+					count: 1
+					id: "minecraft:orange_bundle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "224E4A4116F4F1AF"
+				type: "checkmark"
+			}]
+			x: 8.57858704305059d
+			y: 0.36833865471020033d
+		}
+		{
+			dependencies: ["43937036F320DBD7"]
+			icon: {
+				id: "create:goggles"
+			}
+			id: "219D1953176DF04B"
+			rewards: [{
+				auto: "enabled"
+				id: "4BD80B687B5A57EF"
+				item: {
+					count: 1
+					id: "create_sa:zinc_helmet"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "750157B691120C1C"
+				type: "checkmark"
+			}]
+			x: 7.2205427490207725d
+			y: -1.41951450097325d
+		}
+		{
+			dependencies: ["506FE6310ECAACAE"]
+			icon: {
+				id: "ftbquests:screen_1"
+			}
+			id: "2D406E2F91C1F149"
+			rewards: [{
+				auto: "enabled"
+				id: "00CC78CEB9A60E29"
+				item: {
+					count: 1
+					id: "create_sa:zinc_chestplate"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "1AAA22B3BCB64D59"
+				type: "checkmark"
+			}]
+			x: -2.88d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506FE6310ECAACAE"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3671195220A680DD"
+			rewards: [{
+				auto: "enabled"
+				id: "6FC9B021ACC1151B"
+				item: {
+					count: 1
+					id: "create_sa:zinc_leggings"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "128728BB4CC7FD32"
+				type: "checkmark"
+			}]
+			x: -1.08d
+			y: -1.44d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			icon: {
+				id: "minecraft:raw_iron"
+			}
+			id: "66B75FF4E60E64BE"
+			rewards: [{
+				auto: "enabled"
+				id: "014E47C670007B15"
+				item: {
+					count: 1
+					id: "create_sa:zinc_boots"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "3302D8BBFFCAD195"
+				type: "checkmark"
+			}]
+			x: 1.44d
+			y: 3.24d
+		}
+		{
+			dependencies: ["506FE6310ECAACAE"]
+			icon: {
+				id: "endrem:old_eye"
+			}
+			id: "48A851FC2CD1CC19"
+			rewards: [{
+				id: "38A016675E575458"
+				item: {
+					count: 1
+					id: "bountifulfares:gristmill"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "5B6DA176D8B37E81"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "1C6F6466806A6BBB"
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "6FA8997DFA2FDAD4"
+				type: "checkmark"
+			}]
+			x: 1.44d
+			y: 2.16d
+		}
+		{
+			dependencies: ["506FE6310ECAACAE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "test_images:textures/islan.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7F7FD1D2D41594EB"
+			size: 0.72d
+			tasks: [{
+				id: "2493091BC2261C3A"
+				type: "checkmark"
+			}]
+			x: 0.72d
+			y: 0.0d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			id: "681D21BF34704D7D"
+			size: 0.72d
+			tasks: [{
+				id: "387FDFFF55A1EA7C"
+				item: { count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 4.680000000000001d
+			y: 4.680000000000001d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			id: "4C042EC32C6A6B27"
+			size: 0.72d
+			tasks: [{
+				id: "37EE06EAB22273D5"
+				item: { count: 1, id: "vc_gliders:paraglider_wood" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 4.680000000000001d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "626FFE6FB45465F1"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "6D8D61871A5E2186"
+				type: "checkmark"
+			}]
+			x: 3.33753203912741d
+			y: 3.0140666037713757d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "45FA7E1B86FA2588"
+			size: 0.72d
+			tasks: [{
+				id: "0B6FF9BB5130BD34"
+				type: "checkmark"
+			}]
+			x: 3.3416059960311415d
+			y: 1.5813809782730388d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "506FE6310ECAACAE"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "6080139E9385BD95"
+				type: "checkmark"
+			}]
+			x: -1.0501840006472065d
+			y: 0.3597692463768638d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "43937036F320DBD7"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "577E41E1E6955F7E"
+				type: "checkmark"
+			}]
+			x: 7.221830538885499d
+			y: 0.3463425356653289d
+		}
+		{
+			dependencies: ["4C042EC32C6A6B27"]
+			id: "56020C3B4FE82BB3"
+			size: 0.72d
+			tasks: [{
+				id: "4621DD7E6E0A9165"
+				item: { count: 1, id: "vc_gliders:paraglider_iron" }
+				type: "item"
+			}]
+			x: 1.08d
+			y: 4.680000000000001d
+		}
+		{
+			dependencies: ["56020C3B4FE82BB3"]
+			id: "4181548BDF573019"
+			size: 0.72d
+			tasks: [{
+				id: "52793656BCEA83ED"
+				item: { count: 1, id: "vc_gliders:paraglider_gold" }
+				type: "item"
+			}]
+			x: 1.08d
+			y: 5.76d
+		}
+		{
+			dependencies: ["4181548BDF573019"]
+			id: "079E98FBC820CFDA"
+			size: 0.72d
+			tasks: [{
+				id: "2EE8999693C89B88"
+				item: { count: 1, id: "vc_gliders:paraglider_diamond" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 5.76d
+		}
+		{
+			dependencies: ["079E98FBC820CFDA"]
+			id: "00E0962530CCFD19"
+			size: 0.72d
+			tasks: [{
+				id: "40E76724EEF0A790"
+				item: { count: 1, id: "vc_gliders:paraglider_netherite" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 6.84d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "4F1C17486A8D4CC3"
+			size: 0.72d
+			tasks: [{
+				id: "3DC97D6D94C9D725"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.ender_hook\"}", template_id: "ender_hook" }, "grapplemod:customizable": { crc32: 2441478089L, properties: { "grapplemod:ender_staff": 1b, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 4.680000000000001d
+			y: 5.76d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "411D210FE21B2518"
+			size: 0.72d
+			tasks: [{
+				id: "1D8FEA1CAA634638"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.magnet_hook\"}", template_id: "magnet_hook" }, "grapplemod:customizable": { crc32: 3035744438L, properties: { "grapplemod:forcefield": 1b, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:magnet": 1b, "grapplemod:max_rope_length": 60.0d } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 4.680000000000001d
+			y: 6.84d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "1140C0F08D09FC4A"
+			size: 0.72d
+			tasks: [{
+				id: "1AB3249C263BD3D5"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.motor_hook\"}", template_id: "motor_hook" }, "grapplemod:customizable": { crc32: 3625328972L, properties: { "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: 5.76d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "3C0E71E9156286E6"
+			size: 0.72d
+			tasks: [{
+				id: "33565F2541744D03"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.rocket_hook\"}", template_id: "rocket_hook" }, "grapplemod:customizable": { crc32: 3544416601L, properties: { "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d, "grapplemod:rocket": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: 4.680000000000001d
+		}
+		{
+			dependencies: ["1140C0F08D09FC4A"]
+			id: "392D3D725353F3E0"
+			size: 0.72d
+			tasks: [{
+				id: "7D5C33BFDC5B9395"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.double_motor_hook\"}", template_id: "double_motor_hook" }, "grapplemod:customizable": { crc32: 3767260191L, properties: { "grapplemod:double_hook": 1b, "grapplemod:double_hook_angle": 30.0d, "grapplemod:double_hook_angle_on_sneak": 25.0d, "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_gravity_multiplier": 50.0d, "grapplemod:hook_throw_angle": 25.0d, "grapplemod:hook_throw_speed": 20.0d, "grapplemod:max_motor_speed": 10.0d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b, "grapplemod:sticky_rope": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 6.84d
+			y: 5.76d
+		}
+		{
+			dependencies: ["3C0E71E9156286E6"]
+			id: "48BE5FC8C3429462"
+			size: 0.72d
+			tasks: [{
+				id: "273EB5FCC964F6D1"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.double_rocket_motor_hook\"}", template_id: "double_rocket_motor_hook" }, "grapplemod:customizable": { crc32: 29791249L, properties: { "grapplemod:double_hook": 1b, "grapplemod:double_hook_angle": 30.0d, "grapplemod:double_hook_angle_on_sneak": 25.0d, "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_gravity_multiplier": 50.0d, "grapplemod:hook_throw_angle": 25.0d, "grapplemod:hook_throw_speed": 20.0d, "grapplemod:max_motor_speed": 10.0d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b, "grapplemod:rocket": 1b, "grapplemod:rocket_angle": 30.0d, "grapplemod:sticky_rope": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 6.84d
+			y: 4.680000000000001d
+		}
+		{
+			dependencies: ["626FFE6FB45465F1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "realmrpg_balloons:item/unknown_treasure_balloon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "61C9CD665A505977"
+			rewards: [{
+				id: "07C0728A241D202D"
+				item: {
+					count: 1
+					id: "realmrpg_balloons:unknown_treasure_balloon"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "16F358716A514D55"
+				type: "checkmark"
+			}]
+			x: 5.04d
+			y: 2.16d
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:mech_core"
+    },
+    {
+      "item": "createmoremachines:end_alloy"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createnuclear:uranium",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:overcharged_resonant_core"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 300
+}

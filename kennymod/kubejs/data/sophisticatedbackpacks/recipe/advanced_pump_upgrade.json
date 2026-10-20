@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "TCT",
+    "PAP",
+    "HSH"
+  ],
+  "key": {
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "create:mechanical_pump"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:pump_upgrade"
+    },
+    "H": {
+      "item": "create:hose_pulley"
+    },
+    "S": {
+      "item": "kubejs:sealed_mechanism"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_pump_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_pump_upgrade"
+    }
+  ]
+}

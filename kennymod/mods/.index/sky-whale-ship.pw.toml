@@ -1,0 +1,18 @@
+filename = 'sky_whale_ship-neoforge-1.21.1.jar'
+name = 'Sky Whale Ship'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sky_whale_ship-neoforge-1.21.1.jar'
+
+[download]
+hash = '6e2cba680535a5900b83fa4a4dd9f332141a36b9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7177858
+project-id = 1214459

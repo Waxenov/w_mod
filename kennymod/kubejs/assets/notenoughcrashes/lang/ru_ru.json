@@ -1,0 +1,20 @@
+{
+  "notenoughcrashes.gui.uploadToCrashy": "Загрузить на Crashy",
+  "notenoughcrashes.gui.loadingCrashyUpload": "Загрузка…",
+  "notenoughcrashes.crashscreen.noModsErrored": "Нет модов с явной ошибкой. (Мод всё ещё может косвенно вызывать сбой.)",
+  "notenoughcrashes.midnightconfig.disableReturnToMainMenuComment1": "Если включено, кнопка «Вернуться в главное меню» будет недоступна после сбоя,",
+  "notenoughcrashes.midnightconfig.disableReturnToMainMenuComment2": "поэтому восстановиться после сбоя без закрытия игры не получится.",
+  "notenoughcrashes.midnightconfig.disableReturnToMainMenu": "Отключить возврат в главное меню",
+  "notenoughcrashes.midnightconfig.catchInitializationCrashesComment1": "(Только Fabric) Если выключено, при ошибке инициализации игра закроется обычным образом,",
+  "notenoughcrashes.midnightconfig.catchInitializationCrashesComment2": "и специальный экран сбоя не появится.",
+  "notenoughcrashes.midnightconfig.catchInitializationCrashesComment3": "При установке некоторых модов эта функция всегда отключается, даже если параметр включён.",
+  "notenoughcrashes.midnightconfig.catchInitializationCrashes": "Перехватывать сбои инициализации",
+  "notenoughcrashes.midnightconfig.debugModIdentificationComment": "Если включено, в журнал записывается дополнительная информация для разработчика мода.",
+  "notenoughcrashes.midnightconfig.debugModIdentification": "Отладка определения модов",
+  "notenoughcrashes.midnightconfig.crashLimitComment": "Сколько раз NEC попытается предотвратить закрытие игры за один сеанс.",
+  "notenoughcrashes.midnightconfig.crashLimit": "Лимит сбоев",
+  "notenoughcrashes.midnightconfig.catchGameloopComment1": "Если выключено, NEC не будет пытаться предотвратить закрытие игры при сбое.",
+  "notenoughcrashes.midnightconfig.catchGameloopComment2": "При установленном Iris эта функция всегда отключена, даже если параметр включён.",
+  "notenoughcrashes.midnightconfig.catchGameloop": "Перехватывать сбои игрового цикла",
+  "notenoughcrashes.midnightconfig.title": "Настройки Not Enough Crashes"
+}

@@ -1,0 +1,18 @@
+filename = 'tacz_aero_compat-1.8.0.jar'
+name = 'TACZ Aeronautics compat'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tacz_aero_compat-1.8.0.jar'
+
+[download]
+hash = '119204f6baf382da70903db2c16d7ddde4adbe69'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8195668
+project-id = 1530288

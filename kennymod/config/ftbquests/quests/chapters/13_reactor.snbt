@@ -1,0 +1,1639 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "square"
+	filename: "13_reactor"
+	group: ""
+	icon: {
+		id: "endrem:cryptic_eye"
+	}
+	id: "4442999B3571D1AF"
+	images: [
+		{
+			height: 25.0d
+			id: "78BBD851B40A5D67"
+			image: "create:entity/blueprint_large"
+			rotation: 0.0d
+			width: 25.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 25.0d
+			id: "7E88876EE7BAD252"
+			image: "create:entity/blueprint_large"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			height: 10.0d
+			id: "75A30FB5CA594B3D"
+			image: "createnuclear:item/uranium_rod"
+			order: 2
+			rotation: -15.0d
+			width: 10.0d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "1C6FAFFB0C69AEF0"
+			image: "createnuclear:item/uranium_rod"
+			order: 1
+			rotation: -15.0d
+			width: 10.0d
+			x: 11.75d
+			y: 5.75d
+		}
+		{
+			height: 10.0d
+			id: "0568FA319F6ED876"
+			image: "kubejs:item/quartz_mechanism"
+			order: 2
+			rotation: 21.0d
+			width: 10.0d
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "6C749C052EAF254C"
+			image: "kubejs:item/quartz_mechanism"
+			order: 1
+			rotation: 21.0d
+			width: 10.0d
+			x: 11.36151127155565d
+			y: -6.169898018287007d
+		}
+		{
+			height: 10.0d
+			id: "1622FE7355995790"
+			image: "create_sa:item/fan_component"
+			order: 2
+			rotation: -14.0d
+			width: 10.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "5ACA579889906D8A"
+			image: "create_sa:item/fan_component"
+			order: 1
+			rotation: -14.0d
+			width: 10.0d
+			x: 0.6472255572699055d
+			y: 8.258673410284388d
+		}
+		{
+			height: 10.0d
+			id: "1E90C18977C9BF29"
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "11000B42607A7130"
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 19.0d
+			y: 0.5d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5EE1FD2E840BA85E"
+				"19C997B552E13510"
+				"21D21DF74BF44FEF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:reactor_casing"
+			}
+			id: "6439E060268CFC26"
+			rewards: [{
+				count: 5
+				id: "05C2AE0812152593"
+				item: {
+					count: 1
+					id: "createnuclear:raw_uranium_block"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					count: 129L
+					id: "4497678AB0C7C8C3"
+					item: { count: 1, id: "createnuclear:reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "688AAB925BD69FBB"
+					item: { count: 1, id: "createnuclear:reactor_frame" }
+					type: "item"
+				}
+			]
+			x: 1.44d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"6439E060268CFC26"
+				"4C0A51B4B5FD7C1F"
+			]
+			icon: {
+				id: "createnuclear:reactor_core"
+			}
+			id: "32D33F4FB9ECE5DD"
+			rewards: [{
+				count: 16
+				id: "40A8300923A1EC43"
+				item: {
+					count: 1
+					id: "createnuclear:graphene"
+				}
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					count: 5L
+					id: "4B2FD0D3FA311956"
+					item: { count: 1, id: "createnuclear:reactor_core" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "599D003C6976A755"
+					item: { count: 1, id: "createnuclear:reactor_cooler" }
+					type: "item"
+				}
+			]
+			x: 3.6d
+			y: 1.8d
+		}
+		{
+			dependencies: ["32D33F4FB9ECE5DD"]
+			icon: {
+				id: "createnuclear:reactor_input"
+			}
+			id: "7E87525DD0B46D6D"
+			rewards: [{
+				count: 6
+				id: "084035208C7E01B3"
+				item: {
+					count: 1
+					id: "createnuclear:graphite_rod"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					id: "14AE845586E76964"
+					item: { count: 1, id: "createnuclear:reactor_input" }
+					type: "item"
+				}
+				{
+					id: "48B6008658D6C867"
+					item: { count: 1, id: "createnuclear:reactor_output" }
+					type: "item"
+				}
+			]
+			x: 5.76d
+			y: 1.8d
+		}
+		{
+			dependencies: ["7E87525DD0B46D6D"]
+			icon: {
+				id: "createnuclear:reactor_controller"
+			}
+			id: "1FDD59715B5DB47D"
+			rewards: [{
+				count: 12
+				id: "76DC83FFE591F7E0"
+				item: {
+					count: 1
+					id: "createnuclear:raw_uranium"
+				}
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "390C8EBDF7344F31"
+				item: { count: 1, id: "createnuclear:reactor_controller" }
+				type: "item"
+			}]
+			x: 8.280000000000001d
+			y: 1.8d
+		}
+		{
+			dependencies: ["1FDD59715B5DB47D"]
+			icon: {
+				components: {
+					"createnuclear:reactor_blue_print_data": {
+						countGraphiteRod: 12
+						countUraniumRod: 16
+						graphiteTime: 3600
+						pattern: [
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 0
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 1
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 2
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 3
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 4
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 5
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 6
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 7
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 8
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 9
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 10
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 11
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 12
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 13
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 14
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 15
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 16
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 17
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 18
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 19
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 20
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 21
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 22
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 23
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 24
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 25
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 26
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 27
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 28
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 29
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 30
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 31
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 32
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 33
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 34
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 35
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 36
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 37
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 38
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 39
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 40
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 41
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 42
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 43
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 44
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 45
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 46
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 47
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 48
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 49
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 50
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 51
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 52
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 53
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 54
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 55
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 56
+							}
+						]
+						patternAll: [
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 0
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 1
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 2
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 3
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 4
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 5
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 6
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 7
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 8
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 9
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 10
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 11
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 12
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 13
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 14
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 15
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 16
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 17
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 18
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 19
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 20
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 21
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 22
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 23
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 24
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 25
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 26
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 27
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 28
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 29
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 30
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 31
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 32
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 33
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 34
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 35
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 36
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 37
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 38
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 39
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 40
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 41
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 42
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 43
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 44
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 45
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 46
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 47
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:uranium_rod"
+								}
+								slot: 48
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 49
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 50
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 51
+							}
+							{
+								Stack: {
+									count: 1
+									id: "createnuclear:graphite_rod"
+								}
+								slot: 52
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 53
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 54
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 55
+							}
+							{
+								Stack: {
+									count: 1
+									id: "minecraft:glass_pane"
+								}
+								slot: 56
+							}
+						]
+						uraniumTime: 3600
+					}
+				}
+				id: "createnuclear:reactor_blueprint_item"
+			}
+			id: "7B90F6E4AA9E7A55"
+			rewards: [{
+				count: 8
+				id: "008061CF294BE5A7"
+				item: {
+					count: 1
+					id: "createnuclear:uranium_rod"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "6DA00BDC19EDB5B1"
+				item: { components: { "createnuclear:reactor_blue_print_data": { countGraphiteRod: 12, countUraniumRod: 16, graphiteTime: 3600, pattern: [ { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 0 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 1 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 2 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 3 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 4 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 5 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 6 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 7 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 8 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 9 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 10 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 11 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 12 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 13 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 14 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 15 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 16 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 17 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 18 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 19 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 20 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 21 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 22 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 23 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 24 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 25 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 26 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 27 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 28 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 29 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 30 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 31 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 32 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 33 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 34 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 35 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 36 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 37 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 38 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 39 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 40 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 41 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 42 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 43 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 44 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 45 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 46 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 47 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 48 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 49 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 50 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 51 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 52 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 53 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 54 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 55 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 56 } ], patternAll: [ { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 0 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 1 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 2 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 3 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 4 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 5 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 6 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 7 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 8 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 9 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 10 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 11 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 12 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 13 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 14 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 15 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 16 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 17 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 18 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 19 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 20 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 21 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 22 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 23 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 24 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 25 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 26 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 27 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 28 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 29 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 30 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 31 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 32 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 33 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 34 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 35 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 36 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 37 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 38 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 39 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 40 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 41 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 42 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 43 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 44 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 45 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 46 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 47 }, { Stack: { count: 1, id: "createnuclear:uranium_rod" }, slot: 48 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 49 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 50 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 51 }, { Stack: { count: 1, id: "createnuclear:graphite_rod" }, slot: 52 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 53 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 54 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 55 }, { Stack: { count: 1, id: "minecraft:glass_pane" }, slot: 56 } ], uraniumTime: 3600 } }, count: 1, id: "createnuclear:reactor_blueprint_item" }
+				type: "item"
+			}]
+			x: 8.280000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B90F6E4AA9E7A55"]
+			icon: {
+				id: "endrem:cryptic_eye"
+			}
+			id: "57DAA9EC209675F8"
+			rewards: [{
+				count: 10
+				id: "6DECA6DE108BE12E"
+				item: {
+					count: 1
+					id: "createnuclear:raw_uranium_block"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.72d
+			tasks: [{
+				id: "7B09968E35BFABDF"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: 12.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDD59715B5DB47D"]
+			icon: {
+				id: "createnuclear:white_anti_radiation_helmet"
+			}
+			id: "57A1FF67C9673CCC"
+			rewards: [{
+				id: "0498DDA41738FCE4"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "createnuclear:potion_of_radiation_2"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					id: "6032242A3DFC543F"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_helmet" }
+					type: "item"
+				}
+				{
+					id: "5CB9E391414FED69"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_chestplate" }
+					type: "item"
+				}
+				{
+					id: "423732D0FEF87DF2"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_leggings" }
+					type: "item"
+				}
+				{
+					id: "6F0FE4D6158D61AF"
+					item: { count: 1, id: "createnuclear:anti_radiation_boots" }
+					type: "item"
+				}
+			]
+			x: 8.280000000000001d
+			y: 3.96d
+		}
+		{
+			dependencies: ["4BAB8DC00A37071F"]
+			icon: {
+				id: "createnuclear:raw_uranium"
+			}
+			id: "5C0DFA69B0A55AF2"
+			rewards: [{
+				count: 4
+				id: "15721EED8852E7BB"
+				item: {
+					count: 1
+					id: "create:crushed_raw_uranium"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "35B8582B963B5AB7"
+				item: { count: 1, id: "createnuclear:raw_uranium" }
+				type: "item"
+			}]
+			x: -0.72d
+			y: -5.76d
+		}
+		{
+			dependencies: ["5C0DFA69B0A55AF2"]
+			icon: {
+				id: "createnuclear:uranium_powder"
+			}
+			id: "71A1595988024AFD"
+			rewards: [{
+				id: "5339EEE46661FF1D"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "createnuclear:potion_of_radiation_1"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "5AD9B9C19B6AFF50"
+				item: { count: 1, id: "createnuclear:uranium_powder" }
+				type: "item"
+			}]
+			x: 1.44d
+			y: -5.76d
+		}
+		{
+			dependencies: ["71A1595988024AFD"]
+			icon: {
+				id: "createnuclear:uranium_bucket"
+			}
+			id: "21D21DF74BF44FEF"
+			rewards: [{
+				id: "3B3E76C0A0F87676"
+				item: {
+					count: 1
+					id: "createnuclear:chicken_irradiated_spawn_egg"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "5425C7E817C471BB"
+				item: { count: 1, id: "createnuclear:uranium_bucket" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -5.76d
+		}
+		{
+			dependencies: ["5EE1FD2E840BA85E"]
+			icon: {
+				id: "createnuclear:graphite_rod"
+			}
+			id: "4A3C3520D08886FE"
+			rewards: [{
+				count: 3
+				id: "70ACD0FAFC9490F0"
+				item: {
+					count: 1
+					id: "createnuclear:graphite_rod"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "4AD316B0D3D1EF76"
+				item: { count: 1, id: "createnuclear:graphite_rod" }
+				type: "item"
+			}]
+			x: -0.72d
+			y: -2.16d
+		}
+		{
+			dependencies: ["04A105FA91578408"]
+			icon: {
+				id: "kubejs:graphite_sheet"
+			}
+			id: "5EE1FD2E840BA85E"
+			rewards: [{
+				count: 32
+				id: "619BE806829B4F31"
+				item: {
+					count: 1
+					id: "kubejs:graphite_sheet"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "32559A273E620239"
+				item: { count: 1, id: "kubejs:graphite_sheet" }
+				type: "item"
+			}]
+			x: 1.44d
+			y: -2.16d
+		}
+		{
+			dependencies: ["71A1595988024AFD"]
+			id: "04A105FA91578408"
+			rewards: [{
+				id: "1FA186B725DF416F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 0.72d
+			tasks: [{
+				count: 16L
+				id: "7C4720EBEA093133"
+				item: { count: 1, id: "createnuclear:lead_ingot" }
+				type: "item"
+			}]
+			x: 1.44d
+			y: -3.96d
+		}
+		{
+			dependencies: ["21D21DF74BF44FEF"]
+			icon: {
+				id: "createnuclear:yellowcake"
+			}
+			id: "1D0386B26FD371A4"
+			rewards: [{
+				count: 4
+				id: "0FDB5C1C64D5BCD9"
+				item: {
+					count: 1
+					id: "createnuclear:yellowcake"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "635296CA239B7FF8"
+				item: { count: 1, id: "createnuclear:yellowcake" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: -5.76d
+		}
+		{
+			dependencies: ["1D0386B26FD371A4"]
+			id: "376101A22D9BFB85"
+			rewards: [{
+				count: 16
+				id: "2F3677568FEB59DC"
+				item: {
+					components: {
+						"minecraft:fireworks": {
+							flight_duration: 3b
+						}
+					}
+					count: 1
+					id: "minecraft:firework_rocket"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "7CC4BAF9A6591C3B"
+				item: { count: 1, id: "createnuclear:enriched_soul_soil" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: -3.96d
+		}
+		{
+			dependencies: ["19C997B552E13510"]
+			id: "4C0A51B4B5FD7C1F"
+			rewards: [{
+				id: "5A89365513F56B59"
+				item: {
+					count: 1
+					id: "kubejs:induction_mechanism"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "3E5ED5E459745124"
+				item: { count: 1, id: "kubejs:induction_mechanism" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"522F6F248B5850EB"
+				"5EE1FD2E840BA85E"
+				"04A105FA91578408"
+			]
+			icon: {
+				id: "createnuclear:uranium_rod"
+			}
+			id: "19C997B552E13510"
+			rewards: [{
+				count: 6
+				id: "3CFB7A97D548CEA3"
+				item: {
+					count: 1
+					id: "createnuclear:enriched_yellowcake"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "3FFBE53625B6EA0A"
+				item: { count: 1, id: "createnuclear:uranium_rod" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -2.16d
+		}
+		{
+			dependencies: ["66F7F55A5737EC4C"]
+			icon: {
+				id: "createnuclear:enriched_yellowcake"
+			}
+			id: "522F6F248B5850EB"
+			rewards: [{
+				id: "2A052269336B9832"
+				item: {
+					count: 1
+					id: "createnuclear:raw_uranium_block"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "2733765C693E696B"
+				item: { count: 1, id: "createnuclear:enriched_yellowcake" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -3.96d
+		}
+		{
+			dependencies: ["376101A22D9BFB85"]
+			id: "66F7F55A5737EC4C"
+			rewards: [{
+				count: 4
+				id: "571B635902986C8E"
+				item: {
+					count: 1
+					id: "create_connected:empty_fan_catalyst"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "270F36D540F7304D"
+				item: { count: 1, id: "create_connected:fan_enriched_catalyst" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: -2.16d
+		}
+		{
+			dependencies: ["19C997B552E13510"]
+			icon: {
+				id: "endrem:black_eye"
+			}
+			id: "770E7323F67238A3"
+			rewards: [{
+				id: "058B71CF36B65198"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "gear"
+			size: 1.05d
+			tasks: [{
+				id: "17EAD3CCD2AF7D4F"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 5.775d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C0DFA69B0A55AF2"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:raw_uranium"
+			}
+			id: "291A43B37979C34D"
+			rewards: [{
+				count: 64
+				id: "4363FACBA2D7682F"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "26923651B07DAC11"
+				item: { count: 1, id: "createnuclear:raw_uranium" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 16.8d
+			y: -1.75d
+		}
+		{
+			dependencies: ["71A1595988024AFD"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:uranium_powder"
+			}
+			id: "38CD3D17F5CA2C0E"
+			rewards: [{
+				id: "33DE5755D8FC56DD"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							Level: 2
+						}
+					}
+					count: 1
+					id: "tacz:ammo_box"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "388D86B39B7FD1C4"
+				item: { count: 1, id: "createnuclear:uranium_powder" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 18.2d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1D0386B26FD371A4"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:yellowcake"
+			}
+			id: "2622457A5AFEB07E"
+			rewards: [{
+				count: 3
+				id: "1EA2A4A795F5BDE9"
+				item: {
+					count: 1
+					id: "minecraft:netherite_block"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "31AB1E0E68C08523"
+				item: { count: 1, id: "createnuclear:yellowcake" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 19.599999999999998d
+			y: -1.75d
+		}
+		{
+			dependencies: ["19C997B552E13510"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:uranium_rod"
+			}
+			id: "4E4E91CF8F8D5967"
+			rewards: [{
+				count: 10
+				id: "59CB1AA25FDFAD0D"
+				item: {
+					count: 1
+					id: "create:refined_radiance_casing"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "4D9C227AA7535A11"
+				item: { count: 1, id: "createnuclear:uranium_rod" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4A3C3520D08886FE"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "createnuclear:graphite_rod"
+			}
+			id: "7EC1B1AB2B60AD0B"
+			rewards: [{
+				id: "0621F84934650B82"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"combat_roll:acrobat": 5
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "780FDE98A3DAFEA3"
+				item: { count: 1, id: "createnuclear:graphite_rod" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 18.9d
+			y: -0.35d
+		}
+	]
+}

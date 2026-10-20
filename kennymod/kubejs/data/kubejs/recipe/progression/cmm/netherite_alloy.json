@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "item": "createnuclear:steel_ingot"
+    },
+    {
+      "item": "kubejs:metal_alloy"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:netherite_alloy",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 300
+}

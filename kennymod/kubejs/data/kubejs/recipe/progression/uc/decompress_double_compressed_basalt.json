@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_basalt"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_basalt",
+    "count": 8
+  }
+}

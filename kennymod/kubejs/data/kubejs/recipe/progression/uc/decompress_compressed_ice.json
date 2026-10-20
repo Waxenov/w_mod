@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_ice"
+    }
+  ],
+  "result": {
+    "id": "minecraft:ice",
+    "count": 8
+  }
+}

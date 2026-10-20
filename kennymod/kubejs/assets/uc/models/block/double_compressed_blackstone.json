@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "uc:block/double_compressed_blackstone",
+    "north": "uc:block/double_compressed_blackstone",
+    "south": "uc:block/double_compressed_blackstone",
+    "east": "uc:block/double_compressed_blackstone",
+    "west": "uc:block/double_compressed_blackstone",
+    "up": "uc:block/double_compressed_blackstone_top",
+    "down": "uc:block/double_compressed_blackstone_top"
+  }
+}

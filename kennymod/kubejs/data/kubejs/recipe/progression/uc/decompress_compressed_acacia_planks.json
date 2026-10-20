@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_acacia_planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:acacia_planks",
+    "count": 8
+  }
+}

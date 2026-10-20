@@ -1,0 +1,8 @@
+{
+  "selector": "#kubejs:sable_disabled",
+  "priority": 2147483647,
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "createmoremachines:netherite_alloy"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:netherite_casing"
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 200
+}

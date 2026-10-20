@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:furnace"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "robotdinos:coal_engine",
+      "chance": 120
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_coal_engine"
+        },
+        {
+          "item": "create:blaze_burner"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_coal_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_coal_engine"
+        },
+        {
+          "item": "kubejs:paste"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_coal_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_coal_engine"
+        },
+        {
+          "item": "minecraft:coal_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_coal_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:unfinished_coal_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:unfinished_coal_engine"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:unfinished_coal_engine"
+  }
+}

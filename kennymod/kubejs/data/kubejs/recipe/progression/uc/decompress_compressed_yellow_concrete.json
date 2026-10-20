@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_yellow_concrete"
+    }
+  ],
+  "result": {
+    "id": "minecraft:yellow_concrete",
+    "count": 8
+  }
+}

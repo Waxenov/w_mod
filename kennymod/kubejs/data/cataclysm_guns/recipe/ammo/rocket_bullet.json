@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:40mmhe_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 8,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "cataclysm_guns:rocket_bullet"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:40mmhe_casing"
+        },
+        {
+          "item": "cataclysm:lava_power_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:40mmhe_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:40mmhe_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:40mmhe_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:40mmhe_casing"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 150,
+          "fluid": "createimmersivetacz:nitropowder_fluid"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:40mmhe_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivetacz:40mmhe_casing"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:resonant_mechanical_core"
+    },
+    {
+      "item": "uc:double_compressed_end_stone"
+    },
+    {
+      "item": "createnuclear:uranium_powder"
+    },
+    {
+      "item": "kubejs:graphite_sheet"
+    },
+    {
+      "item": "createmoremachines:netherite_alloy"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:end_alloy",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 400
+}

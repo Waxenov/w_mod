@@ -1,0 +1,457 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "square"
+	filename: "15_portal"
+	group: ""
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
+	id: "4A990175BB197A62"
+	images: [
+		{
+			click_action: "none:"
+			height: 23.0d
+			id: "1035F82A6185FB9D"
+			image: "cataclysm:textures/entity/leviathan/portal/abyss_portal_idle_0.png"
+			order: 3
+			rotation: 0.0d
+			width: 23.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "73FA4DA0F2CD6859"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "7DBEAD5755950482"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "6D78980550BDAAC5"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "450E547082FC2D7F"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "5B8D218C384535B9"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "58183FCEF94797D5"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "7B2BD2A485E6BA3E"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "1EB0BA67DBB03863"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "1D38578D3B0F029B"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "013E969647535CD1"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "37C7C632A9C97CF0"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "16B077EE8492C440"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			color: 1180159
+			height: 30.0d
+			id: "2408FC24A5005433"
+			image: "cataclysm:textures/particle/custom_explosion_1.png"
+			order: 1
+			rotation: 0.0d
+			width: 30.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 33.0d
+			id: "2096A23C963BBBF2"
+			image: "cataclysm:textures/particle/lightning_explosion_1.png"
+			order: 1
+			rotation: 0.0d
+			width: 33.0d
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "292F865D28FA9445"
+			rewards: [{
+				count: 3
+				id: "4AF19F51251F0E67"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				id: "6F62F94D8ED525D0"
+				type: "checkmark"
+			}]
+			x: 7.800000000000001d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["292F865D28FA9445"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "494E0E97FBFC9545"
+			rewards: [{
+				count: 4
+				id: "5485D3278E71F275"
+				item: {
+					count: 1
+					id: "endermanoverhaul:bubble_pearl"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "148DE69200C727FA"
+				observation_type: "block"
+				observe_type: 0
+				timer: 10L
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			x: 11.700000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["494E0E97FBFC9545"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "17018E2C138EEE2A"
+			rewards: [{
+				id: "61369C5BD9D35AFC"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:slow_falling"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "412FA2CFC42EDA16"
+				type: "dimension"
+			}]
+			x: 9.75d
+			y: 5.2d
+		}
+		{
+			dependencies: ["51FF187700C8D82B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "714DF1DC355A1EB5"
+			rewards: [{
+				count: 3
+				id: "0C6B3984BB27BB8A"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "5132B0A28122AFC1"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: 4.550000000000001d
+			y: 2.6d
+		}
+		{
+			dependencies: ["17018E2C138EEE2A"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "51FF187700C8D82B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "18C2C91201B63FF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.977098417549023d
+			y: 0.9892624016130256d
+		}
+		{
+			id: "46C37A065DAE8B34"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "29484DAAC839EAAF"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 3.9414646232079846d
+			y: -5.638267695259607d
+		}
+		{
+			id: "541DA251F1F70E29"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "0ADEB80CCA767089"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.706628526074731d
+		}
+		{
+			id: "19D2B6AF91A0F84E"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "7F141D127972F373"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 10.899680128022673d
+			y: -5.539812709394717d
+		}
+		{
+			id: "5CB39F5F40723874"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "10D2FF8EDBE9B44D"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: 14.443296331652213d
+			y: -2.039196332390617d
+		}
+		{
+			id: "2376E58EF14FD07C"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "1D0FC703110043F0"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 14.444872217140983d
+			y: 1.4871844559282934d
+		}
+		{
+			id: "77A3F8A47CDA33C2"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "618897994E284048"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: 14.423972549116087d
+			y: 5.0565161276207675d
+		}
+		{
+			id: "1B1B96F70C1D42AC"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "5C0E99F1EB85E23C"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: 0.38810338142908307d
+			y: 4.868170033588697d
+		}
+		{
+			id: "065D9924D0CEC536"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "0C8D29549E6116EB"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: 7.515933117997122d
+			y: 8.662535892819328d
+		}
+		{
+			id: "5E6D2912F8DE1E90"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "6B2BF10773146D37"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 4.04803139825227d
+			y: 8.45672703400588d
+		}
+		{
+			id: "7CA5168D3C7098F2"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "65770FEE9F853536"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 0.48349031809147647d
+			y: -1.9841427155100178d
+		}
+		{
+			id: "3E42905321700C80"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "40AB5BC7D902AFC2"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 11.039742641806647d
+			y: 8.603012083295525d
+		}
+		{
+			id: "0E60D128A232F097"
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				id: "6F6245FCF2421ADD"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: 0.39910815960082147d
+			y: 1.5177168618523211d
+		}
+	]
+}

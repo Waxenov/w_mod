@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:raw_resonant_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:compressed_resonant_core"
+    }
+  ]
+}

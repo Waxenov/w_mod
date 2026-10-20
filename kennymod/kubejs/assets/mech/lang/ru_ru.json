@@ -1,0 +1,19 @@
+{
+  "itemGroup.mech": "Piglin Mech",
+  "entity.mech.mech": "Пиглин-мех",
+  "entity.mech.rocket": "Ракета",
+  "entity.mech.laser": "Лазер",
+  "entity.mech.explosion_fx": "Эффект взрыва",
+  "item.mech.mech_spawn_egg": "Яйцо призыва пиглин-меха",
+  "block.mech.example_block": "Технический блок Piglin Mech",
+  "item.mech.example_item": "Технический предмет Piglin Mech",
+  "block.mech.mech_altar": "Алтарь меха",
+  "block.mech.mech_altar.busy": "Мех уже призван",
+  "block.mech.mech_altar.failed": "Не удалось призвать меха",
+  "structure.mech.mech_lab": "Лаборатория меха",
+  "entity.mech.mech.bossbar.1": "%s §cФаза 1",
+  "entity.mech.mech.bossbar.2": "%s §eФаза 2",
+  "entity.mech.mech.bossbar.3": "%s §fФаза 3",
+  "entity.mech.dust_fx": "Пыль",
+  "entity.mech.ground_fx": "Ударная волна"
+}

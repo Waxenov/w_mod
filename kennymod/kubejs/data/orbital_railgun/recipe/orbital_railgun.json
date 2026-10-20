@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "equipment",
+  "pattern": [
+    "CUMUC",
+    "QGSGQ",
+    "RBOBR",
+    "QGSGQ",
+    "CUMUC"
+  ],
+  "key": {
+    "C": {
+      "item": "createarbitrary:creative_casing"
+    },
+    "U": {
+      "item": "createnuclear:uranium_rod"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "Q": {
+      "item": "createbigcannons:quickfiring_mechanism"
+    },
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "R": {
+      "item": "createnuclear:reactor_core"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_alloy_block"
+    },
+    "O": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "id": "orbital_railgun:orbital_railgun",
+    "count": 1
+  },
+  "show_notification": false
+}

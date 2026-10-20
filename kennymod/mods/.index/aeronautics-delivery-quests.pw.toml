@@ -1,0 +1,25 @@
+filename = 'aeronautics_delivery_quests-1.1.0.jar'
+name = 'Aeronautics Delivery Quests'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TNM Aeronautics Quests 1.1.0 (NeoForge 1.21.1)'
+
+[download]
+hash = '6ef620d126dade2fbf4b1ac8715ad84a930d5a87'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8439248
+project-id = 1556234
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

@@ -1,0 +1,307 @@
+#Kindletron
+[kindletron]
+
+	[kindletron.attack1]
+		#Урон атаки 1 за удар (3 удара в окне 15 тиков)
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		damage = 15.0
+		#Усилитель замедления во время атаки 1 (0 = Slow I)
+		# Default: 4
+		# Range: 0 ~ 10
+		slownessAmplifier = 4
+
+	[kindletron.attack2]
+		#Урон атаки 2 (один удар)
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		damage = 50.0
+		#Горизонтальный отброс атаки 2
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		knockbackHorizontal = 2.0
+		#Вертикальный отброс атаки 2
+		# Default: 0.15
+		# Range: 0.0 ~ 5.0
+		knockbackVertical = 0.15
+
+	[kindletron.general]
+		#Максимальное здоровье Kindletron
+		# Default: 100.0
+		# Range: 1.0 ~ 10000.0
+		health = 1000.0
+		#Броня
+		# Default: 8.0
+		# Range: 0.0 ~ 100.0
+		armor = 8.0
+		#Базовый урон
+		# Default: 5.0
+		# Range: 0.0 ~ 100.0
+		attackDamage = 30.0
+		#Дальность преследования
+		# Default: 48.0
+		# Range: 1.0 ~ 128.0
+		followRange = 48.0
+		#Скорость движения
+		# Default: 0.28
+		# Range: 0.01 ~ 2.0
+		movementSpeed = 0.28
+		#Сопротивление отбросу
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.8
+
+	[kindletron.glide]
+		#Кулдаун планера (тики)
+		# Default: 100
+		# Range: 0 ~ 2000
+		cooldown = 100
+		#Горизонтальная скорость планера
+		# Default: 1.5
+		# Range: 0.1 ~ 5.0
+		horizontalSpeed = 1.5
+		#Вертикальный импульс планера
+		# Default: 0.5
+		# Range: 0.0 ~ 3.0
+		verticalSpeed = 0.5
+		#Дистанция, дальше которой использует планер
+		# Default: 15.0
+		# Range: 1.0 ~ 64.0
+		triggerRange = 15.0
+		#На сколько блоков до цели приземляется
+		# Default: 5.0
+		# Range: 0.5 ~ 16.0
+		landDistance = 5.0
+
+	[kindletron.combat]
+		#Кулдаун каждой атаки (тики)
+		# Default: 200
+		# Range: 0 ~ 2000
+		attackCooldown = 200
+		#Пауза после любой атаки (тики)
+		# Default: 80
+		# Range: 0 ~ 2000
+		postAttackCooldown = 80
+		#Дистанция начала ближней атаки
+		# Default: 6.0
+		# Range: 1.0 ~ 16.0
+		meleeRange = 6.0
+
+	[kindletron.spawning]
+		#Биомы спавна Kindletron (modid:biome)
+		biomes = ["dragonbiom:infected_plain"]
+		#Вес спавна днём
+		# Default: 1
+		# Range: 0 ~ 100
+		daySpawnWeight = 1
+		#Мин. размер группы днём
+		# Default: 1
+		# Range: 1 ~ 10
+		dayMinGroupSize = 1
+		#Макс. размер группы днём
+		# Default: 1
+		# Range: 1 ~ 10
+		dayMaxGroupSize = 1
+		#Вес спавна ночью
+		# Default: 2
+		# Range: 0 ~ 100
+		nightSpawnWeight = 2
+		#Мин. размер группы ночью
+		# Default: 1
+		# Range: 1 ~ 10
+		nightMinGroupSize = 1
+		#Макс. размер группы ночью
+		# Default: 2
+		# Range: 1 ~ 10
+		nightMaxGroupSize = 2
+		#Формат лута: "id_предмета;мин_количество;макс_количество;шанс"
+		#  id_предмета — resource location предмета (например minecraft:diamond)
+		#  мин_количество — минимальное количество в стаке
+		#  макс_количество — максимальное количество в стаке
+		#  шанс — вероятность выпадения 0.0–1.0 (0.5 = 50%)
+		#
+		#Примеры:
+		#  "minecraft:diamond;1;3;0.5"   — алмаз 1-3 шт, 50%
+		#  "minecraft:iron_ingot;2;5;1.0" — железо 2-5 шт, 100%
+		lootDrops = ["kubejs:iskrite_ingot;1;3;0.8"]
+
+#Barrel Bot
+[barrelbot]
+
+	[barrelbot.general]
+		#Максимальное здоровье Barrel Bot
+		# Default: 80.0
+		# Range: 1.0 ~ 10000.0
+		maxHealth = 750.0
+		#Броня
+		# Default: 8.0
+		# Range: 0.0 ~ 100.0
+		armor = 10.0
+		#Базовый урон (если атака не задаёт свой)
+		# Default: 12.0
+		# Range: 0.0 ~ 100.0
+		attackDamage = 25.0
+		#Дальность преследования
+		# Default: 40.0
+		# Range: 1.0 ~ 128.0
+		followRange = 40.0
+		#Скорость движения
+		# Default: 0.4
+		# Range: 0.01 ~ 2.0
+		movementSpeed = 0.4
+		#Сопротивление отбросу
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 1.0
+
+	[barrelbot.attack1]
+		#Урон спина (атака 1)
+		# Default: 12.0
+		# Range: 0.0 ~ 100.0
+		damage = 40.0
+		#Дальность атаки 1 (блоки)
+		# Default: 3
+		# Range: 1 ~ 16
+		range = 3
+		#Кулдаун атаки 1 (тики)
+		# Default: 80
+		# Range: 0 ~ 2000
+		cooldown = 80
+		#Сила отброса атаки 1
+		# Default: 0.75
+		# Range: 0.0 ~ 5.0
+		knockbackScale = 0.75
+
+	[barrelbot.attack2]
+		#Урон клешни (атака 2)
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		damage = 40.0
+		#Дальность атаки 2 (блоки)
+		# Default: 3
+		# Range: 1 ~ 16
+		range = 3
+		#Кулдаун атаки 2 (тики)
+		# Default: 40
+		# Range: 0 ~ 2000
+		cooldown = 40
+		#Сила отброса атаки 2
+		# Default: 0.75
+		# Range: 0.0 ~ 5.0
+		knockbackScale = 0.75
+
+	[barrelbot.attack3]
+		#Урон пушечного ядра
+		# Default: 4.0
+		# Range: 0.0 ~ 100.0
+		cannonBallDamage = 4.0
+		#Урон огненного шара
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		fireBallDamage = 25.0
+		#Мин. дистанция для выстрела
+		# Default: 5.0
+		# Range: 0.0 ~ 64.0
+		minRange = 5.0
+		#Макс. дистанция обычного выстрела
+		# Default: 18.0
+		# Range: 1.0 ~ 64.0
+		maxRange = 18.0
+		#Кулдаун атаки 3 (тики)
+		# Default: 140
+		# Range: 0 ~ 2000
+		cooldown = 140
+
+	[barrelbot.ult]
+		#Мин. дистанция ульты (дальняя стрельба)
+		# Default: 16.0
+		# Range: 0.0 ~ 64.0
+		minRange = 16.0
+		#Если HP бота ниже этой доли, ульта доступна и на средней дистанции (0.45 = 45%)
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		healthThreshold = 0.45
+		#Кулдаун ульты (тики)
+		# Default: 300
+		# Range: 0 ~ 4000
+		cooldown = 300
+
+	[barrelbot.approach]
+		#Дистанция остановки у цели
+		# Default: 3.0
+		# Range: 0.5 ~ 32.0
+		stopDist = 3.0
+		#Дистанция, с которой начинается стрейф
+		# Default: 5.0
+		# Range: 0.5 ~ 32.0
+		strafeDist = 5.0
+		#Дистанция, дальше которой бежит
+		# Default: 12.0
+		# Range: 1.0 ~ 64.0
+		sprintDist = 12.0
+		#Скорость бега к цели
+		# Default: 1.0
+		# Range: 0.1 ~ 3.0
+		sprintSpeed = 1.0
+		#Скорость шага к цели
+		# Default: 0.8
+		# Range: 0.1 ~ 3.0
+		walkSpeed = 0.8
+		#Скорость стрейфа
+		# Default: 0.6
+		# Range: 0.1 ~ 3.0
+		strafeSpeed = 0.6
+		#Длина шага стрейфа
+		# Default: 4.0
+		# Range: 0.5 ~ 16.0
+		strafeRange = 4.0
+		#Мин. длительность стрейфа (тики)
+		# Default: 20
+		# Range: 1 ~ 200
+		strafeMinTicks = 20
+		#Макс. длительность стрейфа (тики)
+		# Default: 40
+		# Range: 1 ~ 200
+		strafeMaxTicks = 40
+		#Пауза подхода после остановки (тики)
+		# Default: 10
+		# Range: 0 ~ 200
+		cooldown = 10
+
+	[barrelbot.spawning]
+		#Биомы спавна Barrel Bot (modid:biome)
+		biomes = ["dragonbiom:infected_plain"]
+		#Вес спавна днём
+		# Default: 4
+		# Range: 0 ~ 100
+		daySpawnWeight = 4
+		#Мин. размер группы днём
+		# Default: 1
+		# Range: 1 ~ 10
+		dayMinGroupSize = 1
+		#Макс. размер группы днём
+		# Default: 2
+		# Range: 1 ~ 10
+		dayMaxGroupSize = 2
+		#Вес спавна ночью
+		# Default: 8
+		# Range: 0 ~ 100
+		nightSpawnWeight = 8
+		#Мин. размер группы ночью
+		# Default: 2
+		# Range: 1 ~ 10
+		nightMinGroupSize = 2
+		#Макс. размер группы ночью
+		# Default: 4
+		# Range: 1 ~ 10
+		nightMaxGroupSize = 4
+		#Формат лута: "id_предмета;мин_количество;макс_количество;шанс"
+		#  id_предмета — resource location предмета (например minecraft:diamond)
+		#  мин_количество — минимальное количество в стаке
+		#  макс_количество — максимальное количество в стаке
+		#  шанс — вероятность выпадения 0.0–1.0 (0.5 = 50%)
+		#
+		#Примеры:
+		#  "minecraft:diamond;1;3;0.5"   — алмаз 1-3 шт, 50%
+		#  "minecraft:iron_ingot;2;5;1.0" — железо 2-5 шт, 100%
+		lootDrops = ["kubejs:barrelbot_core_fragment;1;3;1.0"]

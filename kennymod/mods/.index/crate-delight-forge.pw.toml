@@ -1,0 +1,25 @@
+filename = 'cratedelight-26.07.01-1.21-neoforge.jar'
+name = 'Crate Delight (Forge & Neoforge)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Crate Delight 26.07.01 - 1.21+'
+
+[download]
+hash = '23522b85b799a781ac9b3a60aa7dafd65bd3bc23'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8350308
+project-id = 958291
+
+[[x-prismlauncher-dependencies]]
+addonId = '977515'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '979761'
+type = 'OPTIONAL'

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BFB",
+    "SES",
+    "BFB"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:brass_frame"
+    },
+    "F": {
+      "item": "create:fluid_pipe"
+    },
+    "S": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "E": {
+      "item": "createbionics:simple_engine"
+    }
+  },
+  "result": {
+    "id": "createbionics:oxhauler_engine_item"
+  }
+}

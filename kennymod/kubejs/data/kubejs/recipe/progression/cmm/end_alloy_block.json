@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "createmoremachines:end_alloy"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:end_alloy_block",
+    "count": 1
+  }
+}

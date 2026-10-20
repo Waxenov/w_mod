@@ -1,0 +1,33 @@
+filename = 'create_sky_village-0.0.38 NeoForge 1.21.1.jar'
+name = 'Create: Sky Village'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_sky_village-0.0.38 NeoForge 1.21.1.jar'
+
+[download]
+hash = '35ff34bab02e1d9e0a1930737664b653997bd593'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8004708
+project-id = 1104939
+
+[[x-prismlauncher-dependencies]]
+addonId = '1010066'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1094958'
+type = 'OPTIONAL'

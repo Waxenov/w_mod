@@ -1,0 +1,631 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "square"
+	filename: "07_flight"
+	group: ""
+	icon: {
+		id: "aeronautics:white_envelope"
+	}
+	id: "271984C6D2012301"
+	images: [
+		{
+			height: 25.0d
+			id: "23B8D88FCC4414A3"
+			image: "create:entity/blueprint_large"
+			rotation: 0.0d
+			width: 25.0d
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 25.0d
+			id: "6AB5469ABA8B668F"
+			image: "create:entity/blueprint_large"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			height: 10.0d
+			id: "013B653E38F94CF0"
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "7D69295A234A26F1"
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.182741254939423d
+			y: -0.31422963948681115d
+		}
+		{
+			height: 15.0d
+			id: "555AE49983F97E1D"
+			image: "aeronautics:item/aviators_goggles"
+			order: 2
+			rotation: 37.0d
+			width: 15.0d
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 15.0d
+			id: "3D974E55F6077DDC"
+			image: "aeronautics:item/aviators_goggles"
+			order: 1
+			rotation: 37.0d
+			width: 15.0d
+			x: 1.857069061274423d
+			y: 9.484223933184914d
+		}
+		{
+			height: 10.0d
+			id: "04DC14FD11F5D66C"
+			image: "create:item/super_glue"
+			order: 2
+			rotation: 0.0d
+			width: 10.0d
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "3F884B1D972D7CB7"
+			image: "create:item/super_glue"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 15.178813816176643d
+			y: -4.77933880886809d
+		}
+		{
+			alpha: 230
+			height: 5.0d
+			id: "56EA78FD74F759C6"
+			image: "simulated:block/merging_glue/strand"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			height: 10.0d
+			id: "1A04A807521EA0BE"
+			image: "simulated:item/honey_glue"
+			order: 2
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "2472BC51984AA0BE"
+			image: "simulated:item/honey_glue"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.3092905617257884d
+			y: -3.790357907740024d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["16A5253C047FF916"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "40E2A56DB17738C8"
+			rewards: [{
+				count: 3
+				id: "66F632E63435DE0F"
+				item: {
+					count: 1
+					id: "minecraft:slime_block"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "75CC9D59D6DD1031"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["5E076D40E6FFFC2C"]
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "3835AFA5D0012E54"
+			rewards: [{
+				id: "08EF16D683AD7589"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					id: "269632232B1D829B"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					id: "405827B06D60E4AF"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+			]
+			x: 1.8d
+			y: -1.8d
+		}
+		{
+			dependencies: ["5E076D40E6FFFC2C"]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "170DB7263C0C150A"
+			rewards: [{
+				count: 16
+				id: "78B78AAF37E1AADF"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "6F1A6AA2DD9F3C31"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 1.8d
+			y: 1.8d
+		}
+		{
+			dependencies: ["5E076D40E6FFFC2C"]
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "5851B3112AB30F2B"
+			rewards: [{
+				count: 4
+				id: "7ED8BA7E7B44D795"
+				item: {
+					count: 1
+					id: "aeronautics:white_envelope"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "25C6C61AC2529374"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34F64194ACADE15E"]
+			icon: {
+				id: "endrem:cold_eye"
+			}
+			id: "66C035AA37243BDA"
+			rewards: [{
+				count: 5
+				id: "3FD4897835E7A393"
+				item: {
+					count: 1
+					id: "bountifulfares:torchflower_tea_bottle"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.05d
+			tasks: [{
+				id: "5230626FB1443E93"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 11.16d
+			y: 1.8d
+		}
+		{
+			dependencies: ["40E2A56DB17738C8"]
+			icon: {
+				id: "simulated:rope_connector"
+			}
+			id: "1778786F95238019"
+			rewards: [{
+				count: 4
+				id: "7704B08077CF64E2"
+				item: {
+					count: 1
+					id: "simulated:rope_coupling"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					id: "12DC405857EEBC23"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+				{
+					id: "73E31EC084AC8337"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["61DBD99A55913585"]
+			icon: {
+				id: "simulated:orange_portable_engine"
+			}
+			id: "16A5253C047FF916"
+			rewards: [{
+				count: 16
+				id: "10D8900C20B592E0"
+				item: {
+					count: 1
+					id: "create_blaze_burner_fuels:fiery_coal"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "29BF772F510E482A"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5851B3112AB30F2B"
+				"170DB7263C0C150A"
+			]
+			icon: {
+				id: "simulated:white_symmetric_sail"
+			}
+			id: "7D24F9A58ABC66AB"
+			rewards: [{
+				count: 24
+				id: "3821F01DAFE92A31"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "4F6FF545D855668C"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 1.8d
+		}
+		{
+			dependencies: ["5851B3112AB30F2B"]
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "32D7D1601C356797"
+			rewards: [{
+				count: 4
+				id: "1889E65F91BB0FF3"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "53C7E24558FF13B0"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A5253C047FF916"]
+			icon: {
+				id: "aeronautics:wooden_propeller"
+			}
+			id: "5E076D40E6FFFC2C"
+			rewards: [{
+				count: 4
+				id: "1B043D94A2D21A54"
+				item: {
+					count: 1
+					id: "create:adjustable_chain_gearshift"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "7831021397B9EA0F"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3835AFA5D0012E54"]
+			icon: {
+				id: "simulated:altitude_sensor"
+			}
+			id: "2207E2BBC03A1484"
+			rewards: [{
+				id: "16EF122E2D3DDAE5"
+				item: {
+					count: 1
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "7E9BF19E47611818"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -1.8d
+		}
+		{
+			dependencies: ["2207E2BBC03A1484"]
+			icon: {
+				id: "simulated:velocity_sensor"
+			}
+			id: "3CA6472E4E7C62C9"
+			rewards: [{
+				id: "13D795B1ABAA1D29"
+				item: {
+					count: 1
+					id: "minecraft:sulfur_cube_bucket"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "129F415EA4BA2090"
+				item: { count: 1, id: "simulated:velocity_sensor" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -3.6d
+		}
+		{
+			dependencies: ["32D7D1601C356797"]
+			icon: {
+				id: "aeronautics:mounted_potato_cannon"
+			}
+			id: "72BB9063BBCC28B4"
+			rewards: [{
+				count: 32
+				id: "35B022CF7740DB7E"
+				item: {
+					count: 1
+					id: "minecraft:poisonous_potato"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "48D55FA92AF8A460"
+				item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 1.8d
+		}
+		{
+			dependencies: ["5851B3112AB30F2B"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "3BE0221AC3D66042"
+			rewards: [{
+				id: "5E3F431AD3640D2B"
+				item: {
+					components: {
+						"quark:item_count": 640
+					}
+					count: 1
+					id: "quark:seed_pouch"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "589AD28F0DD70937"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 15.75d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["5E076D40E6FFFC2C"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "aeronautics:wooden_propeller"
+			}
+			id: "2136EEBC583D7537"
+			rewards: [{
+				count: 16
+				id: "697F0E0979002C57"
+				item: {
+					count: 1
+					id: "kubejs:steel_mechanism"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "48DA9292B7F93801"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 15.75d
+			y: -1.05d
+		}
+		{
+			dependencies: ["170DB7263C0C150A"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				id: "create:super_glue"
+			}
+			id: "7D9809B66C20DE7C"
+			rewards: [{
+				count: 16
+				id: "2D7C765123D6FDC7"
+				item: {
+					count: 1
+					id: "minecraft:end_stone"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7E0DAE10D7E108F3"
+				item: { count: 1, id: "create:super_glue" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 17.15d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["32D7D1601C356797"]
+			id: "60264E86083FDE41"
+			rewards: [{
+				count: 4
+				id: "23DEE9DAC8C1378A"
+				item: {
+					count: 1
+					id: "create_connected:empty_fan_catalyst"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "3E079ED1CF372EB9"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60264E86083FDE41"]
+			id: "6985EE136DB137A8"
+			rewards: [{
+				id: "6BC58FF6CC7E4937"
+				item: {
+					count: 1
+					id: "minecraft:campfire"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "2AD0DBCF9618DA5F"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["6985EE136DB137A8"]
+			id: "34F64194ACADE15E"
+			rewards: [{
+				id: "6FCEB336433B7BAF"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_slow_falling"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "4E17DC2F152C506F"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.8d
+		}
+	]
+}

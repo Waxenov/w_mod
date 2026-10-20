@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gCE",
+    "SDG",
+    "RCB"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "uc:compressed_sandstone"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "item": "minecraft:dead_bush"
+    },
+    "G": {
+      "item": "minecraft:cactus"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "catafalk:cursed_pyramid_eye",
+    "count": 1
+  }
+}

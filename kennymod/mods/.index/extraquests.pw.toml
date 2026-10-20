@@ -1,0 +1,29 @@
+filename = 'ExtraQuests-1.7.0-1.21.1-NeoForge.jar'
+name = 'ExtraQuests [FTB Quests]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ExtraQuests-1.7.0-1.21.1-NeoForge'
+
+[download]
+hash = 'f8e0c0b83010430216428052b6bf436d92f3d1a3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8004488
+project-id = 964194
+
+[[x-prismlauncher-dependencies]]
+addonId = '289412'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1083780'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '948942'
+type = 'OPTIONAL'

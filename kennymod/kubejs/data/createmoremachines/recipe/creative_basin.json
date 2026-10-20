@@ -1,0 +1,55 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GFTFG",
+    "PBLBP",
+    "VCMCV",
+    "PBRBP",
+    "GUHUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "T": {
+      "item": "create:creative_fluid_tank"
+    },
+    "P": {
+      "item": "create:mechanical_pump"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_basin"
+    },
+    "L": {
+      "item": "createmoremachines:binder_bucket"
+    },
+    "V": {
+      "item": "create:basin"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "createnuclear:reactor_cooler"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    },
+    "H": {
+      "item": "create:hose_pulley"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:creative_basin",
+    "count": 1
+  },
+  "show_notification": false
+}

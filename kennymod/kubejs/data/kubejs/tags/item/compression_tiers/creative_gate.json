@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "uc:double_compressed_diamond_block",
+    "uc:double_compressed_emerald_block",
+    "uc:double_compressed_netherite_block"
+  ]
+}

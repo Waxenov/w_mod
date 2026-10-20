@@ -1,0 +1,32 @@
+{
+	id: "3A15C0C0A0000001"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "3A15C0C0A0000011", item: { count: 1, id: "bountifulfares:coconut" } }
+		{
+			count: 2
+			id: "3A15C0C0A0000012"
+			item: {
+				count: 1
+				id: "bountifulfares:coconut"
+			}
+		}
+		{
+			count: 3
+			id: "3A15C0C0A0000013"
+			item: {
+				count: 1
+				id: "bountifulfares:coconut"
+			}
+		}
+		{
+			count: 4
+			id: "3A15C0C0A0000014"
+			item: {
+				count: 1
+				id: "bountifulfares:coconut"
+			}
+		}
+	]
+}

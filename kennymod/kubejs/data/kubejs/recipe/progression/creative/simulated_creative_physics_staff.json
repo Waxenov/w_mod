@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GSGSG",
+    "PCGCP",
+    "EMMME",
+    "PCGCP",
+    "GSGSG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "S": {
+      "item": "simulated:gyroscopic_mechanism"
+    },
+    "P": {
+      "item": "simulated:physics_assembler"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "E": {
+      "item": "simulated:engine_assembly"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    }
+  },
+  "result": {
+    "id": "simulated:creative_physics_staff",
+    "count": 1
+  },
+  "show_notification": false
+}

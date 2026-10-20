@@ -1,0 +1,25 @@
+filename = 'aeronautics_preflight_checklist-1.0.1.jar'
+name = 'Aeronautics Preflight Checklist'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Aeronautics Preflight Checklist 1.0.1 (NeoForge 1.21.1)'
+
+[download]
+hash = '8a372eda54c97bfd2428b226efe570bc8d04d2de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8218945
+project-id = 1564032
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'

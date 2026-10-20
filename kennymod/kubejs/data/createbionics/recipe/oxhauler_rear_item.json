@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "SVS",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "V": {
+      "item": "create:item_vault"
+    }
+  },
+  "result": {
+    "id": "createbionics:oxhauler_rear_item",
+    "count": 1
+  }
+}

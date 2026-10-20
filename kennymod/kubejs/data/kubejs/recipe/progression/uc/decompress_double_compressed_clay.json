@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_clay"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_clay",
+    "count": 8
+  }
+}

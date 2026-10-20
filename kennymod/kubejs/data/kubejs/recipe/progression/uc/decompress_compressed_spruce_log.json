@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_spruce_log"
+    }
+  ],
+  "result": {
+    "id": "minecraft:spruce_log",
+    "count": 8
+  }
+}

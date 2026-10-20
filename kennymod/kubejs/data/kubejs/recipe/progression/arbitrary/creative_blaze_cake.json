@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GUBUG",
+    "HCMCH",
+    "RBPBR",
+    "HCMCH",
+    "GUBUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    },
+    "B": {
+      "item": "create:blaze_burner"
+    },
+    "H": {
+      "item": "create:blaze_cake"
+    },
+    "C": {
+      "item": "createarbitrary:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "createnuclear:reactor_core"
+    },
+    "P": {
+      "item": "createarbitrary:polished_chorium_sheet"
+    }
+  },
+  "result": {
+    "id": "create:creative_blaze_cake",
+    "count": 1
+  },
+  "show_notification": false
+}

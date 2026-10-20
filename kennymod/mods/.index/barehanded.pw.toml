@@ -1,0 +1,25 @@
+filename = 'barehanded-neoforge-1.21.1-1.6.6.jar'
+name = 'Barehanded'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'barehanded-neoforge-1.21.1-1.6.6.jar'
+
+[download]
+hash = '3d7d517f477cff7aec5a5dd88e9467f951da46a8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8532167
+project-id = 1565886
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

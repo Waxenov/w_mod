@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "PAP",
+    "QMQ"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smithing_table"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "M": {
+      "item": "create:mechanical_arm"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+    }
+  ]
+}

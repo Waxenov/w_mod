@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GAGAG",
+    "ACMCA",
+    "RIRIR",
+    "ACMCA",
+    "GAGAG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "A": {
+      "item": "tacz:ammo_box"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:creative_crate"
+    },
+    "I": {
+      "item": "sophisticatedbackpacks:infinity_upgrade"
+    }
+  },
+  "result": {
+    "id": "tacz:ammo_box",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{AllTypeCreative:1b}"
+    }
+  },
+  "show_notification": false
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone_bricks"
+    },
+    {
+      "item": "createmoremachines:end_alloy"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:end_casing"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 250
+}

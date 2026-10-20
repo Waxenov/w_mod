@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:barrelbot_core_fragment"
+    },
+    {
+      "item": "dragonbiom:infected_core"
+    },
+    {
+      "item": "dragonbiom:infected_wire"
+    },
+    {
+      "item": "createmoremachines:netherite_alloy"
+    },
+    {
+      "item": "kubejs:quartz_mechanism"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:raw_resonant_core"
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 200
+}

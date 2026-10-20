@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_dark_oak_planks"
+    }
+  ],
+  "result": {
+    "id": "uc:compressed_dark_oak_planks",
+    "count": 8
+  }
+}

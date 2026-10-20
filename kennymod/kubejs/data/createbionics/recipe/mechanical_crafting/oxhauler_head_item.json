@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RER",
+    "BTB",
+    "SMS"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "B": {
+      "item": "kubejs:brass_frame"
+    },
+    "T": {
+      "item": "createbionics:oxhauler_engine_item"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "M": {
+      "item": "kubejs:sync_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbionics:oxhauler_head_item"
+  }
+}

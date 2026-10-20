@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GFG",
+    "BWB",
+    "PMP"
+  ],
+  "key": {
+    "G": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "F": {
+      "item": "createimmersivetacz:firing_mechanism"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "W": {
+      "item": "tacz:gun_smith_table"
+    },
+    "P": {
+      "item": "kubejs:brass_frame"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "tacz:workbench_b",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "BlockId": "create_armorer:create_workbench"
+      }
+    }
+  }
+}

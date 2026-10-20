@@ -1,0 +1,19 @@
+{
+	id: "96faed46-139b-4806-8066-d15d8a6c1544"
+	type: "player"
+	player_name: "waxenov"
+	ranks: {
+		96faed46-139b-4806-8066-d15d8a6c1544: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "waxenov"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B7FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

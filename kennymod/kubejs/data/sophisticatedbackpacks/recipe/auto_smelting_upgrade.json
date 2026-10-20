@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "FCF",
+    "HAM",
+    "RHR"
+  ],
+  "key": {
+    "F": {
+      "item": "create:encased_fan"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:smelting_upgrade"
+    },
+    "M": {
+      "item": "create_sa:heat_engine"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:auto_smelting_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:auto_smelting_upgrade"
+    }
+  ]
+}

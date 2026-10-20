@@ -1,0 +1,18 @@
+filename = 'modern_gui-1.1.0.jar'
+name = 'Modern GUI'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'modern_gui-1.1.0.jar'
+
+[download]
+hash = '32fe6b2df7bd1b79e294c508deb725e57c9b1f37'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8441218
+project-id = 1522468

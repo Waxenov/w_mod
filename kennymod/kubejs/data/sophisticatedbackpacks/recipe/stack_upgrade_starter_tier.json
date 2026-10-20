@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VCV",
+    "BUB",
+    "VCV"
+  ],
+  "key": {
+    "V": {
+      "item": "create:item_vault"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "B": {
+      "item": "uc:compressed_copper_block"
+    },
+    "U": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:stack_upgrade_starter_tier"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_starter_tier"
+    }
+  ]
+}

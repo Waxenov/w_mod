@@ -1,0 +1,52 @@
+{
+	id: "2A00000000000004"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 8
+			id: "19B572DD31322AE4"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "582AEA24569CE1EB"
+			item: {
+				count: 1
+				id: "farmersdelight:cooked_rice"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "6EFFCA381F936081"
+			item: {
+				count: 1
+				id: "bountifulfares:maize_bread"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "232092F65D988CB3"
+			item: {
+				count: 1
+				id: "bountifulfares:apple_cider_jar"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "35BCAB86866EEF0B"
+			item: {
+				count: 1
+				id: "bountifulfares:black_tea_bottle"
+			}
+			weight: 3.0f
+		}
+	]
+}

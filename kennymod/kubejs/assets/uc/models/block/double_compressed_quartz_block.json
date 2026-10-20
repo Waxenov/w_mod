@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "uc:block/double_compressed_quartz_block",
+    "north": "uc:block/double_compressed_quartz_block",
+    "south": "uc:block/double_compressed_quartz_block",
+    "east": "uc:block/double_compressed_quartz_block",
+    "west": "uc:block/double_compressed_quartz_block",
+    "up": "uc:block/double_compressed_quartz_block_top",
+    "down": "uc:block/double_compressed_quartz_block_bottom"
+  }
+}

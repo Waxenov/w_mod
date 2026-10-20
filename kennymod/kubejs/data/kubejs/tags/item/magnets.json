@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_sa:copper_magnet",
+    "simplemagnets:basicmagnet",
+    "simplemagnets:advancedmagnet"
+  ]
+}

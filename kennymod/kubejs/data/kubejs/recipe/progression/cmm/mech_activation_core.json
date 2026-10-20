@@ -1,0 +1,61 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "pattern": [
+    "EUTTUE",
+    "ASQNSA",
+    "IPRCGI",
+    "IWCRPI",
+    "ASQLSA",
+    "EUTTUE"
+  ],
+  "key": {
+    "E": {
+      "item": "createmoremachines:end_alloy_sheet"
+    },
+    "U": {
+      "item": "createnuclear:uranium_rod"
+    },
+    "T": {
+      "item": "kubejs:steel_mechanism"
+    },
+    "A": {
+      "item": "kubejs:armour_resine"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "N": {
+      "item": "kubejs:induction_mechanism"
+    },
+    "L": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "I": {
+      "item": "dragonbiom:infected_crystall"
+    },
+    "W": {
+      "item": "dragonbiom:infected_wire"
+    },
+    "C": {
+      "item": "dragonbiom:infected_core"
+    },
+    "P": {
+      "item": "createmoremachines:end_casing"
+    },
+    "G": {
+      "item": "createnuclear:graphene"
+    },
+    "R": {
+      "item": "kubejs:resonant_mechanical_core"
+    }
+  },
+  "result": {
+    "id": "kubejs:mech_activation_core",
+    "count": 1
+  },
+  "show_notification": false
+}

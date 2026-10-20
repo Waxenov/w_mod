@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "CPC",
+    "BAB",
+    "CFC"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "createimmersivetacz:primer"
+    },
+    "B": {
+      "item": "kubejs:brass_frame"
+    },
+    "A": {
+      "item": "tacz:ammo_box"
+    },
+    "F": {
+      "item": "create:depot"
+    }
+  },
+  "result": {
+    "id": "tacz:workbench_a",
+    "components": {
+      "minecraft:custom_data": "{BlockId: \"tacz:ammo_workbench\"}"
+    }
+  }
+}

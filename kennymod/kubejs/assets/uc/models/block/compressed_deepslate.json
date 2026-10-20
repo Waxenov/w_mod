@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "uc:block/compressed_deepslate",
+    "north": "uc:block/compressed_deepslate",
+    "south": "uc:block/compressed_deepslate",
+    "east": "uc:block/compressed_deepslate",
+    "west": "uc:block/compressed_deepslate",
+    "up": "uc:block/compressed_deepslate_top",
+    "down": "uc:block/compressed_deepslate_top"
+  }
+}

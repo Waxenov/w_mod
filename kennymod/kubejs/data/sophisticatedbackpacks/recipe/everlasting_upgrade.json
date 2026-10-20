@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CSC",
+    "SUS",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "U": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:everlasting_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:everlasting_upgrade"
+    }
+  ]
+}

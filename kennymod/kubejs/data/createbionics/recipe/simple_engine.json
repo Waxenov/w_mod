@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "SWS",
+    "PTP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/copper"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "id": "createbionics:simple_engine"
+  }
+}

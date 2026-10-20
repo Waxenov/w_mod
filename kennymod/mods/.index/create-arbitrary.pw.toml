@@ -1,0 +1,25 @@
+filename = 'createarbitrary-1.0.0.jar'
+name = 'Create Arbitrary'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Arbitrary 1.0.0 [NeoForge]'
+
+[download]
+hash = 'd2342524d40603cf8702cc912b430c2d809fe8e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8261757
+project-id = 1245562
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

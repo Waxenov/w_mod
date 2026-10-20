@@ -1,0 +1,547 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "square"
+	filename: "12_wither"
+	group: ""
+	icon: {
+		id: "endrem:wither_eye"
+	}
+	id: "7A5EF7C873FD8E96"
+	images: [
+		{
+			height: 20.0d
+			id: "50DEE6EF6290366D"
+			image: "create:entity/blueprint_large"
+			rotation: 0.0d
+			width: 20.0d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 20.0d
+			id: "2A57452E9800A7B1"
+			image: "create:entity/blueprint_large"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 10.0d
+			id: "0E3955556868F466"
+			image: "cataclysm:item/witherite_ingot"
+			order: 2
+			rotation: -21.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			id: "500BFFD6C359AB40"
+			image: "cataclysm:item/witherite_ingot"
+			order: 1
+			rotation: -21.0d
+			width: 10.0d
+			x: 0.2722764203177306d
+			y: -4.8564729822779285d
+		}
+		{
+			height: 10.0d
+			id: "4254004B42E19A4C"
+			image: "create:textures/particle/soul_sprite_start_15.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			height: 8.0d
+			id: "28B90663C3FA6216"
+			image: "minecraft:item/nether_star"
+			order: 2
+			rotation: 35.0d
+			width: 8.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			alpha: 150
+			color: 131329
+			height: 8.0d
+			id: "4D87A1006200385D"
+			image: "minecraft:item/nether_star"
+			order: 1
+			rotation: 35.0d
+			width: 8.0d
+			x: 9.044345554589967d
+			y: 5.1016921878092205d
+		}
+		{
+			height: 5.0d
+			id: "2E8BAB6B31B3511F"
+			image: "minecraft:textures/painting/wither.png"
+			order: 2
+			rotation: -24.0d
+			width: 5.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 5.0d
+			id: "1A5786C1762E6200"
+			image: "minecraft:textures/painting/wither.png"
+			order: 1
+			rotation: -24.0d
+			width: 5.0d
+			x: 0.6469960999212034d
+			y: 5.183045729017024d
+		}
+		{
+			height: 10.0d
+			id: "12D5AF713A442EAA"
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 16.0d
+			y: 1.5d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BAB8DC00A37071F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:soul_sand"
+			}
+			id: "37EFE884D5047F07"
+			rewards: [{
+				count: 8
+				id: "5FDB1EDD7249FB4E"
+				item: {
+					count: 1
+					id: "quark:soul_bead"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				count: 4L
+				id: "44B7D968C2130C40"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -0.72d
+			y: 1.08d
+		}
+		{
+			dependencies: ["37EFE884D5047F07"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "148A6C23D130CAB4"
+			rewards: [{
+				count: 12
+				id: "512C3481366B6F59"
+				item: {
+					count: 1
+					id: "minecraft:wither_rose"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				count: 3L
+				id: "1E841AEF2C56E08B"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 0.72d
+			y: 1.08d
+		}
+		{
+			dependencies: ["148A6C23D130CAB4"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "3F6AF94648BBF968"
+			rewards: [{
+				id: "6878109D89BB728C"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [
+				{
+					id: "7763FB26CA59BF4E"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "62843AE1954EF003"
+					item: { count: 1, id: "endrem:wither_eye" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.16d
+			y: 1.08d
+		}
+		{
+			dependencies: ["3F6AF94648BBF968"]
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "300D5AAF26B09465"
+			rewards: [{
+				id: "0344D49D85BD2598"
+				item: {
+					count: 1
+					id: "minecraft:beacon"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "35AD8A3760DED55E"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 0.72d
+			y: -0.72d
+		}
+		{
+			dependencies: ["0C40DFB49EA42C2F"]
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "32F358DB033C4BE5"
+			rewards: [{
+				count: 4
+				id: "20118BCF5808A6D1"
+				item: {
+					count: 1
+					id: "cataclysm:witherite_ingot"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.72d
+			tasks: [{
+				id: "7916B178DD577F62"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: 4.680000000000001d
+			y: -0.72d
+		}
+		{
+			dependencies: ["3F6AF94648BBF968"]
+			id: "0C40DFB49EA42C2F"
+			size: 0.72d
+			tasks: [{
+				id: "38AAF24A618B083D"
+				item: { count: 1, id: "catafalk:ancient_factory_eye" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: -0.72d
+		}
+		{
+			dependencies: [
+				"32F358DB033C4BE5"
+				"3F6AF94648BBF968"
+			]
+			id: "34DD146EF15D035F"
+			shape: "gear"
+			size: 1.05d
+			tasks: [{
+				id: "77BD2A0824D73663"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: 4.7250000000000005d
+			y: 1.05d
+		}
+		{
+			dependencies: ["3F6AF94648BBF968"]
+			id: "4DC81EA70C5BB3BC"
+			size: 0.72d
+			tasks: [{
+				id: "3E35F7718F154527"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 2.52d
+		}
+		{
+			dependencies: ["4DC81EA70C5BB3BC"]
+			id: "053CA9658CA80200"
+			shape: "gear"
+			size: 0.72d
+			tasks: [{
+				id: "438AD72C0C69F737"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: 4.680000000000001d
+			y: 2.52d
+		}
+		{
+			dependencies: ["37EFE884D5047F07"]
+			hide_dependency_lines: true
+			id: "72E5F53D52C57ACE"
+			rewards: [
+				{
+					id: "6391CCC8D63593A3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F58C284B6EA36C9"
+					table_id: 4467812830109895521L
+					type: "random"
+				}
+			]
+			size: 0.72d
+			tasks: [{
+				id: "0F7C5B98C47907D7"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -2.52d
+		}
+		{
+			dependencies: ["72E5F53D52C57ACE"]
+			id: "6378CEE0FA5B8EB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04C8D1A614929B6C"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [
+				{
+					id: "682A89EAF1DD89F3"
+					item: { count: 1, id: "createmoremachines:netherite_alloy" }
+					type: "item"
+				}
+				{
+					id: "5D4D0865113588E3"
+					item: { count: 1, id: "createmoremachines:netherite_alloy_sheet" }
+					type: "item"
+				}
+			]
+			x: 5.4d
+			y: -2.52d
+		}
+		{
+			dependencies: ["6378CEE0FA5B8EB7"]
+			id: "0542EDA0C5AD7D35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DE8944EAA0AFD6D"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "34F30F833C6448AE"
+				item: { count: 1, id: "createmoremachines:netherite_casing" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -2.52d
+		}
+		{
+			dependencies: ["0542EDA0C5AD7D35"]
+			id: "5E67F40923C9DC98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66365D24D970DA20"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "4614405D6B8BD5A3"
+				item: { count: 1, id: "createmoremachines:netherite_mechanical_press" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -0.36d
+		}
+		{
+			dependencies: ["5E67F40923C9DC98"]
+			id: "6F45ACAED48DC8C5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FCCE53ED9B62240"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "27729B9481D65410"
+				item: { count: 1, id: "createmoremachines:netherite_mechanical_mixer" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 1.08d
+		}
+		{
+			dependencies: ["5E67F40923C9DC98"]
+			id: "03D5F5BFBD4A2072"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CAE614D670D5DD3"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "06ABBDCD87E0A80D"
+				item: { count: 1, id: "createmoremachines:netherite_deployer" }
+				type: "item"
+			}]
+			x: 8.64d
+			y: -0.36d
+		}
+		{
+			dependencies: ["5E67F40923C9DC98"]
+			id: "0B9F84365E0A9340"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10D5709B0637450C"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "3895931818B6099E"
+				item: { count: 1, id: "createmoremachines:netherite_spout" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: -0.36d
+		}
+		{
+			dependencies: ["5E67F40923C9DC98"]
+			id: "502D67E3143A2105"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03C65EB9E5EB60F7"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "5C5FD3020A857340"
+				item: { count: 1, id: "createmoremachines:netherite_basin" }
+				type: "item"
+			}]
+			x: 5.76d
+			y: 1.08d
+		}
+		{
+			dependencies: ["5E67F40923C9DC98"]
+			id: "473EE580E6A6A1D4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "507078592DA2E0FB"
+				table_id: 4467812830109895521L
+				type: "random"
+			}]
+			size: 0.72d
+			tasks: [{
+				id: "6EB4074C25A39A92"
+				item: { count: 1, id: "createmoremachines:netherite_depot" }
+				type: "item"
+			}]
+			x: 8.64d
+			y: 1.08d
+		}
+		{
+			dependencies: ["6378CEE0FA5B8EB7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6C9F32ED22AD5638"
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				count: 32L
+				id: "47CC70E2F059E20D"
+				item: { count: 1, id: "createmoremachines:netherite_alloy" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.35d
+		}
+		{
+			dependencies: ["6378CEE0FA5B8EB7"]
+			hide_dependency_lines: true
+			id: "287B542E673A20DB"
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				count: 32L
+				id: "7125A1B039A52D8A"
+				item: { count: 1, id: "createmoremachines:netherite_alloy_sheet" }
+				type: "item"
+			}]
+			x: 15.75d
+			y: -0.35d
+		}
+		{
+			id: "4B5C9456D3FD75C9"
+			size: 0.72d
+			tasks: [
+				{
+					id: "4ECABF1CDE7843C4"
+					item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+					type: "item"
+				}
+				{
+					id: "26C4E4AABFA7919B"
+					item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "7B022314E19D5CA3"
+					item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.680000000000001d
+			y: 4.32d
+		}
+	]
+}

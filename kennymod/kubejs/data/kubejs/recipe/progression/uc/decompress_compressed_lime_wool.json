@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uc:compressed_lime_wool"
+    }
+  ],
+  "result": {
+    "id": "minecraft:lime_wool",
+    "count": 8
+  }
+}

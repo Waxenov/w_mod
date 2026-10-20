@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "NCN",
+    "PAP",
+    "RGR"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "gamediscs:processor"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:jukebox_upgrade"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "G": {
+      "item": "gamediscs:gaming_console"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_jukebox_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_jukebox_upgrade"
+    }
+  ]
+}

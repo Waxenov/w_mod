@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GOGOG",
+    "OCMCO",
+    "MBNBM",
+    "OCMCO",
+    "GOGOG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "O": {
+      "item": "sophisticatedbackpacks:stack_upgrade_omega_tier"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:netherite_backpack"
+    },
+    "N": {
+      "item": "create:creative_crate"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:infinity_upgrade",
+    "count": 1
+  },
+  "show_notification": false
+}

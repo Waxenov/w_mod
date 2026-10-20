@@ -1,0 +1,55 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GFTFG",
+    "VBLBV",
+    "SCMCS",
+    "VBRBV",
+    "GUHUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative"
+    },
+    "F": {
+      "item": "kubejs:brass_frame"
+    },
+    "T": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_depot"
+    },
+    "L": {
+      "item": "createmoremachines:binder_bucket"
+    },
+    "S": {
+      "item": "create:stockpile_switch"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:creative_crate"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    },
+    "H": {
+      "item": "create:stock_link"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:creative_depot",
+    "count": 1
+  },
+  "show_notification": false
+}

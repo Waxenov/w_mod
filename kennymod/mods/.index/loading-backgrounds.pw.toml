@@ -1,0 +1,21 @@
+filename = 'loadingbackgrounds-2.0.0-neoforge-1.20.2_to_1.21.1.jar'
+name = 'Loading Backgrounds'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Loading Backgrounds - MC 1.20.X / 1.21.1 - 2.0.0'
+
+[download]
+hash = '4a84d25201376f369045e4bec5263c7f0666b457'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6843634
+project-id = 882539
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

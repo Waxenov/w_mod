@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GLG",
+    "BMB",
+    "GAG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "L": {
+      "item": "create:smart_fluid_pipe"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "create:mechanical_arm"
+    }
+  },
+  "result": {
+    "id": "tacz:workbench_c",
+    "components": {
+      "minecraft:custom_data": "{BlockId: \"tacz:attachment_workbench\"}"
+    }
+  }
+}

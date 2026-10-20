@@ -1,0 +1,37 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "priority": 1500,
+  "structures": "#kubejs:surface_structures_with_terrain",
+  "spawn_condition": {
+    "type": "lithostitched:all_of",
+    "conditions": [
+      {
+        "type": "lithostitched:height_filter",
+        "range_type": "absolute",
+        "permitted_range": {
+          "min_inclusive": -42,
+          "max_inclusive": 319
+        }
+      },
+      {
+        "type": "lithostitched:grid",
+        "radius": 8,
+        "distance_between_points": 8,
+        "condition": {
+          "type": "lithostitched:height_filter",
+          "range_type": "absolute",
+          "heightmap": "WORLD_SURFACE_WG",
+          "permitted_range": {
+            "min_inclusive": -48,
+            "max_inclusive": 319
+          }
+        },
+        "allowed_count": {
+          "min_inclusive": 7,
+          "max_inclusive": 9
+        }
+      }
+    ]
+  },
+  "append": true
+}

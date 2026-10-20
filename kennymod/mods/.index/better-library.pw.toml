@@ -1,0 +1,21 @@
+filename = 'better_lib-neoforge-1.21.1-1.0.111.jar'
+name = 'Better Library'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'better_lib-neoforge-1.21.1-1.0.111.jar'
+
+[download]
+hash = '92ff366f541a9df29c5744cbc647b32cb88f6802'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8553533
+project-id = 1150683
+
+[[x-prismlauncher-dependencies]]
+addonId = '308702'
+type = 'OPTIONAL'

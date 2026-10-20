@@ -1,0 +1,21 @@
+filename = 'supplementaries-1.21.1-3.9.7-neoforge.jar'
+name = 'Supplementaries'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.9.7'
+
+[download]
+hash = 'bb41f31f0a80be3cccd69fe6e943ac05bce422676f23376a5d855e3d46064f182128d2522fb94db2af30a1a4b1c8b84e2dc4304f055075193189bba17cb12ede'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/A0lpiTgJ/supplementaries-1.21.1-3.9.7-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'A0lpiTgJ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'

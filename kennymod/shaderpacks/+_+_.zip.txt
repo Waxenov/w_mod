@@ -1,0 +1,4 @@
+#Tue Jul 07 07:22:17 MSK 2026
+bloomIntensity=1.4
+motionblurToggle=false
+outlineShimmerToggle=true

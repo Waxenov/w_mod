@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "uc:compressed_raw_copper_block"
+    }
+  ],
+  "processing_time": 900,
+  "results": [
+    {
+      "id": "create:crushed_raw_copper",
+      "count": 90
+    },
+    {
+      "id": "create:experience_nugget",
+      "count": 3,
+      "chance": 0.75
+    }
+  ]
+}

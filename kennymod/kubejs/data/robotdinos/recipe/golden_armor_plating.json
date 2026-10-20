@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GPG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:plates/gold"
+    },
+    "P": {
+      "item": "robotdinos:iron_armor_plating"
+    }
+  },
+  "result": {
+    "id": "robotdinos:golden_armor_plating",
+    "count": 1
+  }
+}

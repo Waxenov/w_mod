@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GVVVG",
+    "VCMCV",
+    "SPIPS",
+    "VCMCV",
+    "GVVVG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "C": {
+      "item": "createarbitrary:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "S": {
+      "item": "create:stock_link"
+    },
+    "P": {
+      "item": "create:packager"
+    },
+    "I": {
+      "item": "uc:compression_catalyst"
+    }
+  },
+  "result": {
+    "id": "create:creative_crate",
+    "count": 1
+  },
+  "show_notification": false
+}

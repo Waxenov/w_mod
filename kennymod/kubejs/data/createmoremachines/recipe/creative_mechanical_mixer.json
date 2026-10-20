@@ -1,0 +1,52 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GWBWG",
+    "LBTBL",
+    "KCMCK",
+    "LBRBL",
+    "GUHUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative"
+    },
+    "W": {
+      "item": "create:whisk"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_mechanical_mixer"
+    },
+    "L": {
+      "item": "createmoremachines:binder_bucket"
+    },
+    "T": {
+      "item": "create:creative_blaze_cake"
+    },
+    "K": {
+      "item": "create:mechanical_mixer"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:blaze_burner"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    },
+    "H": {
+      "item": "createnuclear:reactor_core"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:creative_mechanical_mixer",
+    "count": 1
+  },
+  "show_notification": false
+}

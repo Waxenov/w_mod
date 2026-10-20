@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IPI",
+    "CRC",
+    "IPI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "P": {
+      "item": "kubejs:paste"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "R": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "id": "createbionics:silent_piston",
+    "count": 1
+  }
+}

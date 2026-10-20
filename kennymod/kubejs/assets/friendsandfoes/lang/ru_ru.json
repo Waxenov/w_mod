@@ -1,0 +1,14 @@
+{
+  "entity.friendsandfoes.illusioner": "Иллюзионист",
+  "subtitle.entity.friendsandfoes.copper_golem.oxidation": "Медный голем окисляется",
+  "subtitle.entity.friendsandfoes.copper_golem.spawn": "Медный голем лязгает",
+  "subtitle.entity.friendsandfoes.crab.egg_break": "Яйцо краба разбивается",
+  "subtitle.entity.friendsandfoes.crab.egg_crack": "Яйцо краба трескается",
+  "subtitle.entity.friendsandfoes.crab.egg_hatch": "Из яйца вылупляется краб",
+  "subtitle.entity.friendsandfoes.villager.work_beekeeper": "Пчеловод работает",
+  "yacl3.config.friendsandfoes:friendsandfoes.replaceVanillaCopperGolem": "Заменить ванильного медного голема",
+  "yacl3.config.friendsandfoes:friendsandfoes.replaceCopperGolem": "Заменить ванильного медного голема",
+  "yacl3.config.friendsandfoes:friendsandfoes.crabPotionOfReachingDuration": "Длительность зелья дальности (в секундах)",
+  "yacl3.config.friendsandfoes:friendsandfoes.fleeAwayFromIronGolems": "Убегать от железных големов",
+  "yacl3.config.friendsandfoes:friendsandfoes.rascalGiveRewardInBundle": "Выдавать награду негодника в мешке"
+}

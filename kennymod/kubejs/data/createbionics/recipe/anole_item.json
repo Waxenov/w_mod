@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RTR",
+    "SES",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "kubejs:copper_spool"
+    },
+    "E": {
+      "item": "createbionics:simple_engine"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "result": {
+    "id": "createbionics:anole_item",
+    "count": 1
+  }
+}

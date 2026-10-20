@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createmoremachines:netherite_mechanical_press"
+    },
+    {
+      "item": "createmoremachines:end_alloy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:end_mechanical_press"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 200
+}

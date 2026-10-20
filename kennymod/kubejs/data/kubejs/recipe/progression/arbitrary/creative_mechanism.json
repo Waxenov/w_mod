@@ -1,0 +1,107 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createmoremachines:beyond_alloy_sheet"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "createarbitrary:creative_mechanism",
+      "chance": 120.0
+    },
+    {
+      "id": "createmoremachines:beyond_alloy_sheet",
+      "chance": 8.0
+    },
+    {
+      "id": "createarbitrary:polished_chorium_sheet",
+      "chance": 4.0
+    },
+    {
+      "id": "kubejs:induction_mechanism",
+      "chance": 2.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "createmoremachines:beyond_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "createarbitrary:polished_chorium_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "kubejs:induction_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "createnuclear:reactor_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createarbitrary:incomplete_creative_mechanism"
+  }
+}

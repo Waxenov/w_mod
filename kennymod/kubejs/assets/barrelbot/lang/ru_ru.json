@@ -1,0 +1,12 @@
+{
+  "itemGroup.barrelbot": "BarrelBot",
+  "block.barrelbot.example_block": "Технический блок BarrelBot",
+  "item.barrelbot.example_item": "Технический предмет BarrelBot",
+  "item.barrelbot.barrel_bot_spawn_egg": "Яйцо призыва бочкобота",
+  "entity.barrelbot.barrel_bot": "Бочкобот",
+  "sounds.barrelbot.barrel_bot.activate": "Бочкобот активируется",
+  "sounds.barrelbot.barrel_bot.step_1": "Бочкобот шагает",
+  "sounds.barrelbot.barrel_bot.step_2": "Бочкобот шагает",
+  "sounds.barrelbot.barrel_bot.clamp": "Бочкобот щёлкает захватом",
+  "sounds.barrelbot.barrel_bot.woosh": "Бочкобот рассекает воздух"
+}

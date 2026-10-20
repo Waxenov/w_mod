@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TRT",
+    "RSR",
+    "TRT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "createnuclear:steel_nugget"
+    }
+  },
+  "result": {
+    "id": "gamediscs:redstone_circuit",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item.sophisticatedcore.stack_upgrade_conversion.tooltip": "Щёлкните ПКМ по установленному улучшению вместимости, чтобы преобразовать его",
+  "gui.sophisticatedcore.buttons.browse_results": "Открыть расширенный список результатов с поиском",
+  "gui.sophisticatedcore.settings.buttons.z_offset": "Глубина",
+  "gui.sophisticatedcore.settings.buttons.z_offset_detail": "Наружу = ЛКМ\nВнутрь = ПКМ",
+  "sophisticatedcore.configuration.client": "Клиент",
+  "sophisticatedcore.configuration.common": "Общие",
+  "sophisticatedcore.configuration.sortButtonsPosition": "Положение кнопок сортировки",
+  "sophisticatedcore.configuration.playButtonSound": "Звук кнопок",
+  "sophisticatedcore.configuration.mouseTweaksScrollEnabled": "Управление прокруткой Mouse Tweaks",
+  "sophisticatedcore.configuration.enabledItems": "Включённые предметы мода",
+  "sophisticatedcore.configuration.enabledItems.tooltip": "Предварительно заполнено всеми поддерживаемыми предметами. Замените |true на |false, чтобы отключить предмет.\nФормат: item_id|true_or_false\nПример: sophisticatedbackpacks:smelting_upgrade|true",
+  "sophisticatedcore.configuration.sortButtonsPosition.title_line_right": "Справа в строке заголовка",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrades": "Под улучшениями",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrade_tabs": "Под вкладками улучшений",
+  "sophisticatedcore.configuration.sortButtonsPosition.hidden": "Скрыто"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "OCO",
+    "PAP",
+    "TST"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:void_upgrade"
+    },
+    "T": {
+      "item": "create:brass_tunnel"
+    },
+    "S": {
+      "item": "uc:compressed_obsidian"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:advanced_void_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_void_upgrade"
+    }
+  ]
+}

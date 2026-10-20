@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GFWFG",
+    "FCTCF",
+    "WHMHW",
+    "FCTCF",
+    "GFWFG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative_gate"
+    },
+    "F": {
+      "item": "create_sa:large_filling_tank"
+    },
+    "W": {
+      "item": "create_sa:large_fueling_tank"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "T": {
+      "item": "create:creative_fluid_tank"
+    },
+    "H": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_sa:creative_filling_tank",
+    "count": 1
+  },
+  "show_notification": false
+}

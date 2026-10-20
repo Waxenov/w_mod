@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "SMS",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "M": {
+      "item": "create_sa:copper_magnet"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "simplemagnets:basicmagnet"
+  }
+}

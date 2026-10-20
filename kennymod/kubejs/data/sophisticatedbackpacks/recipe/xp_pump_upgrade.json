@@ -1,0 +1,35 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "ECE",
+    "XAX",
+    "RCR"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "X": {
+      "item": "create:experience_block"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:advanced_pump_upgrade"
+    },
+    "R": {
+      "item": "create:experience_nugget"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:xp_pump_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:xp_pump_upgrade"
+    }
+  ]
+}

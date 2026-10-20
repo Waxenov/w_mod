@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "createarbitrary:chorium_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "createarbitrary:polished_chorium_quartz"
+    }
+  ]
+}

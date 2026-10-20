@@ -1,0 +1,27 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "kubejs:gear"
+    },
+    {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    {
+      "item": "kubejs:copper_spool"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "create:iron_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "createimmersivetacz:firing_mechanism",
+      "count": 1
+    }
+  ]
+}

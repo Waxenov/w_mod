@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createnuclear:uranium_powder"
+    },
+    {
+      "item": "createmoremachines:beyond_alloy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createarbitrary:chorium_quartz",
+      "count": 1
+    }
+  ],
+  "heat_requirement": "superheated"
+}

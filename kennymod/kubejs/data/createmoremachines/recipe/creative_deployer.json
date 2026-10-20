@@ -1,0 +1,52 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GHAHG",
+    "PBLBP",
+    "WCMCW",
+    "PBRBP",
+    "GUHUG"
+  ],
+  "key": {
+    "G": {
+      "tag": "kubejs:compression_tiers/creative"
+    },
+    "H": {
+      "item": "create:brass_hand"
+    },
+    "A": {
+      "item": "create:mechanical_arm"
+    },
+    "P": {
+      "item": "create:deployer"
+    },
+    "B": {
+      "item": "createmoremachines:beyond_deployer"
+    },
+    "L": {
+      "item": "createmoremachines:binder_bucket"
+    },
+    "W": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "C": {
+      "item": "createmoremachines:creative_casing"
+    },
+    "M": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "createnuclear:reactor_core"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    }
+  },
+  "result": {
+    "id": "createmoremachines:creative_deployer",
+    "count": 1
+  },
+  "show_notification": false
+}

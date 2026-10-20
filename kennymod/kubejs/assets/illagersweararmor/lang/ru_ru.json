@@ -1,0 +1,13 @@
+{
+  "illagersweararmor.config.illagerArmor": "Разрешить разбойникам носить броню",
+  "illagersweararmor.config.illagerCrossArms": "Разрешить разбойникам скрещивать руки?",
+  "illagersweararmor.config.blacklist": "Чёрный список разбойников (и вредин), которым запрещено носить броню",
+  "illagersweararmor.config.wave1": "Шанс брони в волне 1",
+  "illagersweararmor.config.wave2": "Шанс брони в волне 2",
+  "illagersweararmor.config.wave3": "Шанс брони в волне 3",
+  "illagersweararmor.config.wave4": "Шанс брони в волне 4",
+  "illagersweararmor.config.wave5": "Шанс брони в волне 5",
+  "illagersweararmor.config.wave6": "Шанс брони в волне 6",
+  "illagersweararmor.config.wave7": "Шанс брони в волне 7",
+  "illagersweararmor.config.wave8": "Шанс брони в волне 8"
+}

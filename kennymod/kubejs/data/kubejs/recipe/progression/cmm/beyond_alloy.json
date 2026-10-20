@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:overcharged_resonant_core"
+    },
+    {
+      "item": "createmoremachines:end_alloy"
+    },
+    {
+      "item": "createmoremachines:netherite_alloy"
+    },
+    {
+      "item": "createnuclear:graphene"
+    },
+    {
+      "item": "createnuclear:uranium_rod"
+    },
+    {
+      "tag": "kubejs:compression_tiers/reactor"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createnuclear:uranium",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:beyond_alloy"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 600
+}

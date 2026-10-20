@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BEB",
+    "S S",
+    "C C"
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_casing"
+    },
+    "E": {
+      "item": "robotdinos:redstone_engine"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "result": {
+    "id": "robotdinos:robot_raptor_legs",
+    "count": 1
+  }
+}

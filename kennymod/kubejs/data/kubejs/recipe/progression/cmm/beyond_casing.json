@@ -1,0 +1,28 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createmoremachines:end_casing"
+    },
+    {
+      "item": "createmoremachines:beyond_alloy_sheet"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:binder",
+      "amount": 250
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createnuclear:uranium",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:beyond_casing"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 350
+}

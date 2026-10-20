@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/waxxe/AppData/Local/Kenny/GameData/instances/d6ee6e09/minecraft/saves/Test
+}
+

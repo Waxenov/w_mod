@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "create:filter"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:pure_water",
+      "amount": 1000
+    }
+  ]
+}

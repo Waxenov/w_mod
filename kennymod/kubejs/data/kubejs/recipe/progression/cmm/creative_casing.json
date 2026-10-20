@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "createmoremachines:beyond_casing"
+    },
+    {
+      "item": "createarbitrary:creative_casing"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:creative_casing"
+    }
+  ]
+}

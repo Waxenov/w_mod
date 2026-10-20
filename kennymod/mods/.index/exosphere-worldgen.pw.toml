@@ -1,0 +1,29 @@
+filename = 'exosphere-1.0.8.jar'
+name = 'BM: Exosphere Worldgen'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Exosphere 1.0.8 Neoforge'
+
+[download]
+hash = 'b84b6311383e53ed0c1d0fd26cf2bdf7f92257e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8659155
+project-id = 1576229
+
+[[x-prismlauncher-dependencies]]
+addonId = '1077985'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '417430'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1605447'
+type = 'REQUIRED'

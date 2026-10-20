@@ -1,0 +1,11 @@
+{
+  "zeta.gui.config.save": "Сохранить изменения",
+  "zeta.gui.config.header": "Настройки %s",
+  "zeta.gui.config.default": "По умолчанию",
+  "zeta.gui.config.discard": "Отменить изменения",
+  "zeta.gui.config.subcategories": "------- Подкатегории -------",
+  "zeta.gui.config.onechild": "1 параметр",
+  "zeta.gui.config.nchildren": "Параметров: %d",
+  "zeta.gui.config.defaultvalue": "По умолчанию: %s",
+  "zeta.gui.config.missingaddon": "Для этой категории отсутствует необходимый мод-дополнение"
+}

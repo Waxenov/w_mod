@@ -1,0 +1,38 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "pattern": [
+    "FCF",
+    "HAM",
+    "RHR"
+  ],
+  "key": {
+    "F": {
+      "item": "create:encased_fan"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:smoking_upgrade"
+    },
+    "M": {
+      "item": "minecraft:campfire"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:auto_smoking_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:auto_smoking_upgrade"
+    }
+  ]
+}

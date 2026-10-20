@@ -1,0 +1,18 @@
+filename = 'tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar'
+name = '[UNOFFICIAL] TaCZ NeoForge Port'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[TaCZ] Timeless & Classics Guns: Zero 1.1.8-hotfix-r6'
+
+[download]
+hash = 'c70e8f638bede79ab8a85c891c464097b3100055'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8547439
+project-id = 1353462

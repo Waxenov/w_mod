@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BMB",
+    "C C"
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_casing"
+    },
+    "M": {
+      "item": "create:large_cogwheel"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "result": {
+    "id": "robotdinos:robot_raptor_arms",
+    "count": 1
+  }
+}

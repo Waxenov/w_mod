@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VCV",
+    "BSB",
+    "VCV"
+  ],
+  "key": {
+    "V": {
+      "item": "create:item_vault"
+    },
+    "C": {
+      "item": "uc:compression_catalyst"
+    },
+    "B": {
+      "item": "uc:compressed_diamond_block"
+    },
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:stack_upgrade_tier_3"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_tier_3"
+    }
+  ]
+}

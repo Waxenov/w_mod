@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "ETE",
+    "BBB"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "item": "robotdinos:redstone_engine"
+    },
+    "B": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "result": {
+    "id": "robotdinos:robot_raptor_head",
+    "count": 1
+  }
+}

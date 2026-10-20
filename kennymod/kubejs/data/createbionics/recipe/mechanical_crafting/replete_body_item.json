@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "TET",
+    "RCR"
+  ],
+  "key": {
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "E": {
+      "item": "createbionics:simple_engine"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    }
+  },
+  "result": {
+    "id": "createbionics:replete_body_item"
+  }
+}

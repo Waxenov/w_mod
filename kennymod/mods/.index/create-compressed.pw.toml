@@ -1,0 +1,21 @@
+filename = 'create_compressed-2.2.0-neoforge-1.21.1.jar'
+name = 'Create Compressed'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_compressed-2.2.0-neoforge-1.21.1.jar'
+
+[download]
+hash = '286c948a50b085ddfa6360ca8ef176775d32e4fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6252716
+project-id = 886773
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

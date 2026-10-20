@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "uc:double_compressed_raw_iron_block"
+    }
+  ],
+  "processing_time": 1600,
+  "results": [
+    {
+      "id": "create_compressed:crushed_iron_pile",
+      "count": 64
+    },
+    {
+      "id": "create_compressed:crushed_iron_pile",
+      "count": 32
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[general]
+	#Max health of the Kindletron
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	health = 120.0
+
+[attack1]
+	#Attack 1 damage per hit (3 hits over 15-ticks window)
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	damage = 2.0
+	#Slowness amplifier applied during attack 1 (0 = Slowness I)
+	# Default: 4
+	# Range: 0 ~ 10
+	slownessAmplifier = 4
+
+[attack2]
+	#Attack 2 damage (single hit)
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	damage = 1.0
+	#Attack 2 horizontal knockback multiplier
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	knockbackHorizontal = 2.0
+	#Attack 2 vertical knockback
+	# Default: 0.15
+	# Range: 0.0 ~ 5.0
+	knockbackVertical = 0.15
+
+[spawning]
+	#Biomes where Kindletron can spawn
+	biomes = ["dragonbiom:infected_plain"]
+	#Spawn weight during day
+	# Default: 4
+	# Range: 1 ~ 100
+	daySpawnWeight = 4
+	#Minimum group size during day
+	# Default: 1
+	# Range: 1 ~ 10
+	dayMinGroupSize = 1
+	#Maximum group size during day
+	# Default: 2
+	# Range: 1 ~ 10
+	dayMaxGroupSize = 2
+	#Spawn weight during night
+	# Default: 8
+	# Range: 1 ~ 100
+	nightSpawnWeight = 8
+	#Minimum group size during night
+	# Default: 2
+	# Range: 1 ~ 10
+	nightMinGroupSize = 2
+	#Maximum group size during night
+	# Default: 4
+	# Range: 1 ~ 10
+	nightMaxGroupSize = 4
+	#Формат лута: "id_предмета;мин_количество;макс_количество;шанс"
+	#  id_предмета — resource location предмета (например minecraft:diamond)
+	#  мин_количество — минимальное количество в стаке
+	#  макс_количество — максимальное количество в стаке
+	#  шанс — вероятность выпадения 0.0–1.0 (0.5 = 50%)
+	#
+	#Примеры:
+	#  "minecraft:diamond;1;3;0.5"   — алмаз 1-3 шт, 50%
+	#  "minecraft:iron_ingot;2;5;1.0" — железо 2-5 шт, 100%
+	#  "minecraft:bone;1;2;0.25"      — кость 1-2 шт, 25%
+	lootDrops = []

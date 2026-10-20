@@ -1,0 +1,14 @@
+[22:49:40] [INIT] KubeJS 2101.7.2-build.374; MC 2101 NeoForge
+[22:49:40] [INIT] Loaded plugins:
+[22:49:40] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[22:49:40] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[22:49:40] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[22:49:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[22:49:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[22:49:40] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[22:49:40] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[22:49:40] [INFO] Loaded script client_scripts:bountifulfares_coconut_help.js in 0.001 s
+[22:49:40] [INFO] Loaded script client_scripts:mech_activation_core_help.js in 0.0 s
+[22:49:40] [INFO] Loaded 2/2 KubeJS client scripts in 0.011 s with 0 errors and 0 warnings
+[22:49:48] [INFO] Client resource reload complete!
+[22:53:00] [INFO] Client resource reload complete!

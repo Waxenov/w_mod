@@ -1,0 +1,11 @@
+{
+  "death.attack.sulfurCubeHot": "%1$s погиб, потому что лава была не только на полу",
+  "death.attack.sulfurCubeHot.player": "%2$s показал %1$s, что лава бывает не только на полу",
+  "item.minecraft.music_disc_bounce": "Пластинка",
+  "item.minecraft.music_disc_bounce.desc": "fingerspit — Bounce",
+  "jukebox_song.minecraft.bounce": "fingerspit — Bounce",
+  "subtitles.entity.small_sulfur_cube.death": "Маленький серный куб погибает",
+  "subtitles.entity.small_sulfur_cube.eat": "Маленький серный куб набирает массу",
+  "subtitles.entity.small_sulfur_cube.hurt": "Маленький серный куб ранен",
+  "subtitles.entity.small_sulfur_cube.jump": "Маленький серный куб подпрыгивает"
+}

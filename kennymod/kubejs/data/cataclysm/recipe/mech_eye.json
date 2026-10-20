@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "SES",
+    "RPR"
+  ],
+  "key": {
+    "R": {
+      "item": "uc:compressed_redstone"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "create:iron_sheet"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "catafalk:ancient_factory_eye",
+    "count": 1
+  }
+}

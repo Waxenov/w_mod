@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DPD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "P": {
+      "item": "robotdinos:golden_armor_plating"
+    }
+  },
+  "result": {
+    "id": "robotdinos:diamond_armor_plating",
+    "count": 1
+  }
+}

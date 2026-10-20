@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Патч интерфейса босса: mech-1.0_Release.jar",
+    "desc": "Удаляет английские суффиксы Phase 1/2/3 из boss bar Пиглина-меха, не меняя фазовую механику. SHA-256 JAR: mech-1.0_Release.jar=5993f20ffeaf9b8795b7039901ca1740cfec834bf08871303de49f4fa7866417",
+    "mods": "mech-1.0_Release.jar",
+    "authors": "KennnyMC",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_classes": [
+      "artembatsak/mech/entity/mech/MechEntity"
+    ],
+    "info": {
+      "method": "updateBossBar"
+    },
+    "pairs": [
+      {
+        "key": " §cPhase 1",
+        "value": ""
+      },
+      {
+        "key": " §ePhase 2",
+        "value": ""
+      },
+      {
+        "key": " §fPhase 3",
+        "value": ""
+      }
+    ]
+  }
+]

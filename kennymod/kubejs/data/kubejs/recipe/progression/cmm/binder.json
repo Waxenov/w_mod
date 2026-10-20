@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:paste"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "tag": "c:slimeballs"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "createmoremachines:pure_water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "id": "createmoremachines:binder",
+      "amount": 1000
+    }
+  ],
+  "heat_requirement": "heated"
+}

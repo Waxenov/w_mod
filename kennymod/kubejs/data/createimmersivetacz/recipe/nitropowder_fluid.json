@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "createimmersivetacz:gunpowder_fluid",
+      "amount": 250
+    },
+    {
+      "item": "createbigcannons:nitropowder"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "createimmersivetacz:nitropowder_fluid",
+      "amount": 250
+    }
+  ]
+}

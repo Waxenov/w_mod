@@ -1,0 +1,18 @@
+filename = 'gliders-1.21.1-neoforge-1.1.8.jar'
+name = 'Gliders'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '🍂 [Neoforge] - Gliders - 1.21.1-v1.1.8'
+
+[download]
+hash = 'f68e8fa4fb1a126cfb660df32fb009b2cc900c6b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6850529
+project-id = 828331

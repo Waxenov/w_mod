@@ -1,0 +1,18 @@
+filename = 'grapplemod-1.1+1.21.1.neoforge.jar'
+name = 'Grappling Hook Mod: Skybound'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.1+1.21.1-neoforge'
+
+[download]
+hash = '2b6060de273f721857d715db9a811ddaa5422683'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8176552
+project-id = 1559979

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "robotdinos:diamond_armor_plating"
+  },
+  "addition": {
+    "item": "createmoremachines:netherite_alloy"
+  },
+  "result": {
+    "id": "robotdinos:netherite_armor_plating"
+  }
+}
