@@ -1,0 +1,22 @@
+[09:06:17] [modloading-worker-0/INFO] The Stellar Remote answers to its wielder.
+[09:06:17] [modloading-worker-0/INFO] The Shooting Star demo is armed with 4 skills. Demo made by tiktok.com/@rimuru.dev - All rights reserved - discord.gg/rimurudev
+[09:06:47] [Render thread/INFO] GPU check passed: NVIDIA GeForce RTX 5050/PCIe/SSE2 (NVIDIA Corporation, 4.6.0 NVIDIA 617.42)
+[09:06:47] [Render thread/INFO] Compiled spell shader composite
+[09:06:47] [Render thread/INFO] Compiled spell shader bloom_down
+[09:06:47] [Render thread/INFO] Compiled spell shader bloom_up
+[09:06:47] [Render thread/INFO] Compiled spell shader depth_copy
+[09:06:47] [Render thread/INFO] Compiled spell shader gungnir_mech
+[09:06:47] [Render thread/INFO] Compiled spell shader gungnir_space
+[09:06:47] [Render thread/INFO] Compiled spell shader gungnir_world
+[09:06:47] [Render thread/INFO] Compiled spell shader star_beam
+[09:06:47] [Render thread/INFO] Compiled spell shader star_gun
+[09:06:47] [Render thread/INFO] Compiled spell shader star_rays
+[09:06:47] [Render thread/INFO] Compiled spell shader star_space
+[09:06:47] [Render thread/INFO] Compiled spell shader stars_space
+[09:06:47] [Render thread/INFO] Compiled spell shader stars_world
+[09:06:47] [Render thread/INFO] Compiled spell shader tess_engine_view
+[09:06:47] [Render thread/INFO] Compiled spell shader tess_sky
+[09:06:47] [Render thread/INFO] Compiled spell shader tess_space
+[09:06:47] [Render thread/INFO] Compiled spell shader tess_world
+[09:06:47] [Render thread/INFO] Compiled spell shader watermark
+[09:06:47] [Render thread/INFO] Warmed 18 spell shaders in 244 ms (165 ms compiling)

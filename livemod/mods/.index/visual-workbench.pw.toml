@@ -1,0 +1,25 @@
+filename = 'VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar'
+name = 'Visual Workbench'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] v21.1.2'
+
+[download]
+hash = 'dd5b71bff42ce3f845afc9c3640d4f4f63ccdb1b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8793655
+project-id = 500273
+
+[[x-prismlauncher-dependencies]]
+addonId = '495476'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '544048'
+type = 'OPTIONAL'
