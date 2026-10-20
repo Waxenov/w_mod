@@ -1,0 +1,43 @@
+#Stress capacity multipliers for each boost level.
+[capacity_multipliers]
+	#Stress capacity multiplier when the engine is at boost level 2.
+	#Default: 2.0
+	#Range: 1.0 - 99999.0
+	# Default: 2.0
+	# Range: 1.0 ~ 99999.0
+	boost2xCapacityMultiplier = 2.0
+	#Stress capacity multiplier when the engine is at boost level 3.
+	#Default: 4.0
+	#Range: 1.0 - 99999.0
+	# Default: 4.0
+	# Range: 1.0 ~ 99999.0
+	boost3xCapacityMultiplier = 4.0
+
+#Extra fuel consumption cost for each boost level.
+[fuel_costs]
+	#Extra Fuel consumption rate at boost level 2. 1 = no extra fuel cost.
+	#Default: 3
+	#Range: 1 - 999
+	# Default: 3
+	# Range: 1 ~ 999
+	boost2xFuelCost = 3
+	#Extra Fuel consumption rate at boost level 3. 1 = no extra fuel cost.
+	#Default: 5
+	#Range: 1 - 999
+	# Default: 6
+	# Range: 1 ~ 999
+	boost3xFuelCost = 6
+
+#Controls whether the engine is allowed to automatically lower its
+#boost level when the kinetic network stress no longer requires it.
+[downshift]
+	#If true, the engine automatically downshifts (lowers boost level)
+	#once the network stress allows it.
+	#If false, the engine only ever upshifts; boost level will only
+	#reset back to 1 when the engine runs out of fuel.
+	allowAutoDownshift = true
+	#Cooldown (in ticks, 20 ticks = 1 second) the engine must wait before
+	#it is allowed to downshift
+	# Default: 40
+	# Range: 0 ~ 999
+	downshiftCooldownTicks = 40

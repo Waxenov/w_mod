@@ -1,0 +1,13 @@
+[09:06:20.115] [INFO]: Loading config 'startup.json'.
+[09:06:25.395] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
+[09:07:13.926] [WARN]: Reload detected. Reconstructing runtime.
+[09:07:13.927] [INFO]: Loading config 'debug.json'.
+[09:07:13.929] [INFO]: Loading config 'placeholders.json'.
+[09:07:13.938] [INFO]: Loading config 'tags.json'.
+[09:07:13.970] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [everythingcopper:copper_nugget]
+[09:07:14.170] [INFO]: Loading config 'duplicates.json'.
+[09:07:14.174] [INFO]: Recipe count: 13976
+[09:07:14.209] [INFO]: 11979 out of 13976 recipes were loaded for unification.
+[09:07:14.414] [INFO]: Recipe count afterwards: 13954 (done in 240.5 ms)
+[09:07:14.678] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create_factory_logistics:barrel_packager, create_things_and_misc:copper_scaffolding_craft]
+[09:07:14.678] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.

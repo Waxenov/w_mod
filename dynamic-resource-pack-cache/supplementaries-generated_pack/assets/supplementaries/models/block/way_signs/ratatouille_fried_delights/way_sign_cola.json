@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/ratatouille_fried_delights/way_sign_cola",
+		"sign": "supplementaries:block/way_signs/ratatouille_fried_delights/way_sign_cola"
+	}
+}

@@ -1,0 +1,21 @@
+filename = 'MossyLib-1.5.0+1.21.1+neoforge.jar'
+name = 'MossyLib'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[neoforge/1.21.1] MossyLib v1.5.0'
+
+[download]
+hash = 'c3ed14d35a7d95fc3b215ad5a2a604de4ff7b45c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8293669
+project-id = 1399257
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'physics-staff-1.0.0.jar'
+name = 'Create Aeronautics: Survival Physics Staff'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '68252b63740c45ff9c76da70d3e04f822df0b27dc6deace9f80f00613edc4948120ee0ae5860d6022ccbe843ce012a2efd90ffc026e47969a0b8b4cb72309c78'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2DWzl5QC/versions/m53zyfd7/physics-staff-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '2DWzl5QC'
+version = 'm53zyfd7'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'

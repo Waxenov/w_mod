@@ -1,0 +1,21 @@
+filename = 'create_assembly_animation-2.0.0.jar'
+name = 'Create: Assembly Animations'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_assembly_animation-2.0.0.jar'
+
+[download]
+hash = '3aee28c719f19585e7a4a63d97d38fb4b1ed541a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9012726
+project-id = 1698836
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'

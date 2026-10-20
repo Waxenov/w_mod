@@ -1,0 +1,18 @@
+filename = 'a_good_place-1.21-1.2.6-neoforge.jar'
+name = 'A Good Place'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge_1.21-1.2.6'
+
+[download]
+hash = '71fe9ea59494ddc299a3d7715ad7bff196e07a5f4eba047e749597eb761240e237be17077564ab28026ea6297125069cddb135d661ea9911863e9e0c97bfcfc8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BwPeriwJ/versions/vERjAa36/a_good_place-1.21-1.2.6-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'BwPeriwJ'
+version = 'vERjAa36'

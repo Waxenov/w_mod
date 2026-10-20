@@ -1,0 +1,21 @@
+filename = 'create_rustic_structures-1.0.1-neoforge-1.21.1.jar'
+name = 'Create: Rustic Structures'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_rustic_structures-1.0.1-neoforge-1.21.1.jar'
+
+[download]
+hash = 'f8f8dea6a23f697c3f27196627bdf77d9147b8e4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8122033
+project-id = 1232975
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'aeronautics_preflight_checklist-1.0.1.jar'
+name = 'Aeronautics Preflight Checklist'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '4a20fbaf76f9c6c99a51674205c84f0e2f3db7c74c93f43893c28900aa2bdb118fbc53d17944ca118b88273847e9ec9ef7e81242a57fa44736d96ac7958cac6d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/l2LYH0FN/versions/wtdlxJmx/aeronautics_preflight_checklist-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'l2LYH0FN'
+version = 'wtdlxJmx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

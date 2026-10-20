@@ -1,0 +1,21 @@
+filename = 'linktablet-1.14.0.jar'
+name = 'Create: Redstone Link Tablet'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'linktablet-1.14.0.jar'
+
+[download]
+hash = '55c886bc8cf0233c544aa13c6bf13835a68f968b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8726414
+project-id = 1610713
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

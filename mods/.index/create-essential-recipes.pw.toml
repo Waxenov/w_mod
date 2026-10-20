@@ -1,0 +1,21 @@
+filename = 'create-essential-recipes-6.0.0.jar'
+name = 'Create: essential recipes'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Essential recipes 6.0.0 for mc 1.21.1'
+
+[download]
+hash = 'c01a1e75e53f6ff4a3787b25887e2fbd6399d723'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7903698
+project-id = 1502218
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

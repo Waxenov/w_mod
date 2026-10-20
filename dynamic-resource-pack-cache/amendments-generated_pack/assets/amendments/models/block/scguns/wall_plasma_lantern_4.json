@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/scguns/wall_plasma_lantern_4_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/scguns/plasma_lantern"
+		}
+	}
+}

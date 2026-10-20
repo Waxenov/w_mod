@@ -1,0 +1,21 @@
+filename = 'clientsort-neoforge-3.89.1+1.21.1.jar'
+name = 'ClientSort'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.89.1+1.21.1'
+
+[download]
+hash = '8290747647ac5d7df24f29db8e887613e97cac69cb949981ec71b948d234250bc7ec1928858c786d6470ba7c2d941520aecfdc75fe277e98ae96ea7e91a70aaa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K0AkAin6/versions/WLIQfhd3/clientsort-neoforge-3.89.1%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'K0AkAin6'
+version = 'WLIQfhd3'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

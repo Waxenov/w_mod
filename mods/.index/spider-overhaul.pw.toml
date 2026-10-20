@@ -1,0 +1,21 @@
+filename = 'SpiderOverhaul-0.0.6-NeoForge-v1.21.jar'
+name = 'Spider Overhaul'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SpiderOverhaul-0.0.6-NeoForge-v1.21.jar'
+
+[download]
+hash = '2d25af4949c25c31c34849d8eafe720d05c5871e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8741447
+project-id = 1619127
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

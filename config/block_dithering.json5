@@ -1,0 +1,70 @@
+{
+  "active_preset": "default",
+  "presets": {
+    "default": {
+      "whitelist": [
+        "minecraft:*bars*",
+        "minecraft:*glass*",
+        "#minecraft:glass_panes",
+        "#minecraft:glass_blocks",
+        "#c:glass_panes",
+        "#c:glass_blocks",
+        "#minecraft:flowers",
+        "#minecraft:crops",
+        "#minecraft:fences",
+        "#minecraft:chains",
+        "#minecraft:corals",
+        "#minecraft:wall_corals",
+        "minecraft:dead_*coral*",
+        "#minecraft:saplings",
+        "#minecraft:climbable",
+        "#minecraft:replaceable",
+        "minecraft:*copper_grate*",
+        "minecraft:ice",
+        "minecraft:cobweb",
+        "minecraft:vault",
+        "minecraft:spawner",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:frogspawn",
+        "minecraft:sculk_vein",
+        "minecraft:weeping_vines",
+        "minecraft:sugar_cane",
+        "minecraft:scaffolding",
+        "minecraft:honey_block",
+        "minecraft:slime_block",
+        "minecraft:firefly_bush",
+        "minecraft:big_dripleaf",
+        "minecraft:small_dripleaf",
+        "minecraft:bamboo_sapling",
+        "minecraft:warped_fungus",
+        "minecraft:crimson_fungus",
+        "minecraft:pale_hanging_moss"
+      ],
+      "blacklist": [
+        "minecraft:flowering_azalea_leaves"
+      ]
+    },
+    "glass_ice": {
+      "whitelist": [
+        "minecraft:*glass*",
+        "#minecraft:glass_panes",
+        "#minecraft:glass_blocks",
+        "#c:glass_panes",
+        "#c:glass_blocks",
+        "minecraft:ice"
+      ]
+    },
+    "custom": {}
+  },
+  "dither_blocks_whitelist": [],
+  "dither_blocks_blacklist": [],
+  "config_version": 1,
+  "mod_enabled": true,
+  "dithering_options": {
+    "pixel_size": 1.0,
+    "min_visibility": 0.45,
+    "near_distance": -0.5,
+    "far_distance": 3.0
+  }
+}

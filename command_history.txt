@@ -1,0 +1,47 @@
+/time set day
+/give @p minecraft:structure_block
+/time set day
+/give @p minecraft:structure_block
+/time set day
+/weather clear
+/time set day
+/weather clear
+/time set day
+/weather thunder
+/weather clear
+/time set midnight
+/weather rain
+/time set day
+/colorwheel alertIncompatiblePack off
+/give @p minecraft:structure_block
+/weather clear
+/time set day
+/give @p minecraft:structure_block
+/weather clear
+/time set dayi
+/time set day
+/give @p minecraft:structure_block
+/time set day
+/weather clear
+/time set day
+/weather clear
+/time set day
+/weather clear
+/time set day
+/weather clear
+/time set day
+/weather clear
+/give @p minecraft:structure_block
+/time set day
+/weather clear
+/time set day
+/gamerule keepInventory true
+/time set day
+/give @p minecraft:structure_block
+/time set day
+/give @p minecraft:structure_block
+/time set day
+/time set midnight
+/weather clear
+/time set midnight
+/weather clear

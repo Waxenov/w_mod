@@ -1,0 +1,18 @@
+filename = 'createschematichelper-neoforge-mc1.21.1-2.2.0.jar'
+name = 'Create: Schematic Helper'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createschematichelper-neoforge-mc1.21.1-2.2.0.jar'
+
+[download]
+hash = '3338c199e16b443e2e5838fa62a15b8691783cf8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8733141
+project-id = 1483578

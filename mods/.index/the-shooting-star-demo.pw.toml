@@ -1,0 +1,18 @@
+filename = 'the-shooting-star-demo-1.4.3-neoforge.jar'
+name = 'The Shooting Star [Demo]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.3 [NeoForge]'
+
+[download]
+hash = 'e5976bea811daa7c9e04e05f46ab38653daf4e8a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9171007
+project-id = 1719195

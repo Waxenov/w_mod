@@ -1,0 +1,25 @@
+filename = 'createmechanicalcompanion-1.9-neoforge-1.21.1.jar'
+name = 'Create: Mechanical Companion'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createmechanicalcompanion-1.9-neoforge-1.21.1.jar'
+
+[download]
+hash = '480d35a7f926c1a2b86521be1feb75710b1c838e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7978289
+project-id = 1264989
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

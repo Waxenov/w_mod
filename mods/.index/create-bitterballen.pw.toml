@@ -1,0 +1,21 @@
+filename = 'create_bitterballen+1.21.1-1.0.4.jar'
+name = 'Create: Bitterballen'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Bitterballen+1.21.1-1.0.4'
+
+[download]
+hash = '439714d6e3fb4926dd83356f019bf51b7571cc66'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8853472
+project-id = 918751
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

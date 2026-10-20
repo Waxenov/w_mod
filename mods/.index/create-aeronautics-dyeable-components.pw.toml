@@ -1,0 +1,21 @@
+filename = 'dyeable-components-1.0.4+mc1.21.1.jar'
+name = 'Create Aeronautics: Dyeable Components'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'dyeable-components-1.0.4+mc1.21.1.jar'
+
+[download]
+hash = 'caf60f71d89a3068cd07283f45bffc31704a7474'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8344761
+project-id = 1518023
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'

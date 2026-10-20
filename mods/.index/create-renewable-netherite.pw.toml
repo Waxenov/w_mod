@@ -1,0 +1,21 @@
+filename = 'create-renewable-netherite-2.0.1.jar'
+name = 'Create: Renewable Netherite'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create-renewable-netherite-2.0.1.jar'
+
+[download]
+hash = 'b7894ab76bcb28768af3c8277c6384992884170e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7060795
+project-id = 1357892
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

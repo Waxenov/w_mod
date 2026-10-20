@@ -1,0 +1,18 @@
+filename = 'createredstonelinkgui-1.21.1-1.9.2.jar'
+name = 'Create: Redstone Link GUI'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createredstonelinkgui-1.21.1-1.9.2.jar'
+
+[download]
+hash = '408f1af35409f8931171dc9c5ab724b762bf65c1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8482307
+project-id = 1547849

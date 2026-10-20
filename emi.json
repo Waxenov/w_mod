@@ -1,0 +1,72 @@
+{
+  "favorites": [
+    {
+      "stack": "item:create:water_wheel"
+    },
+    {
+      "stack": "item:minecraft:stone"
+    }
+  ],
+  "lookup_history": [
+    "item:createqol:shadow_radiance_upgrade_smithing_template",
+    "item:create:refined_radiance",
+    "item:createqol:shadow_radiance",
+    "item:create:chromatic_compound",
+    "item:create:shadow_steel",
+    "item:moretotems:stinging_totem_of_undying",
+    "item:aeronautics:end_stone_powder",
+    "item:minecraft:end_stone",
+    "item:minecraft:spruce_pressure_plate",
+    "item:alcocraftplus:kvass",
+    "item:minecraft:egg",
+    "item:shooting_star_demo:gungnir_hull",
+    "item:shooting_star_demo:stellar_remote",
+    "item:minecraft:composter",
+    {
+      "type": "item",
+      "id": "minecraft:wheat_seeds",
+      "amount": 58
+    },
+    "item:minecraft:sugar",
+    "item:minecraft:mossy_cobblestone_wall",
+    "item:create:blaze_cake_base",
+    "item:minecraft:cobblestone",
+    "item:minecraft:gravel",
+    "item:minecraft:iron_nugget",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:flint_and_steel",
+    "item:minecraft:jungle_trapdoor",
+    {
+      "type": "item",
+      "id": "scguns:sheol_dust",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "scguns:sheol",
+      "amount": 10
+    },
+    "item:scguns:sulfur_dust",
+    "item:create:cinder_flour",
+    "item:minecraft:netherrack",
+    "item:minecraft:basalt",
+    {
+      "type": "fluid",
+      "id": "createpropulsion:turpentine",
+      "amount": 1000
+    },
+    "item:createpropulsion:turpentine_bucket",
+    "item:createpropulsion:pine_resin",
+    "item:minecraft:sugar_cane",
+    "item:create:blaze_cake",
+    "item:minecraft:spruce_log"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

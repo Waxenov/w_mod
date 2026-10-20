@@ -1,0 +1,21 @@
+filename = 'hotstuff-1.1.7.jar'
+name = "Hot's Aerostuff"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hotstuff-1.1.7.jar'
+
+[download]
+hash = '8e93381dae43d8505f17c50dfa699e259e1dd463'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8728216
+project-id = 1548347
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'

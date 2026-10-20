@@ -1,0 +1,21 @@
+filename = 'Create Quality of Life-1.21.1-1.6.3-fix1.jar'
+name = 'Create: Quality Of Life'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Quality of Life-1.21.1-1.6.3-fix1.jar'
+
+[download]
+hash = 'bc5aa6699c5dfb2e1de40c2627c11b1751caa9db'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8265828
+project-id = 905508
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

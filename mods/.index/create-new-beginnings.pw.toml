@@ -1,0 +1,21 @@
+filename = 'createnewbeg-0.1.0-1.21.1.jar'
+name = 'Create: New Beginnings'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createnewbeg-0.1.1-1.21.1.jar'
+
+[download]
+hash = 'a178fd63d33a7e18d1bc748bb3b247e575328fd9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6284829
+project-id = 1090260
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

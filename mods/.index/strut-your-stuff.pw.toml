@@ -1,0 +1,21 @@
+filename = 'struts-1.3.1.jar'
+name = 'Strut Your Stuff (Struts)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Strut Your Stuff 1.3.1 NeoForge 1.21.1'
+
+[download]
+hash = '131663d29e0dd944e03299b35bda18aefacd1932'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8812965
+project-id = 1486746
+
+[[x-prismlauncher-dependencies]]
+addonId = '486392'
+type = 'OPTIONAL'

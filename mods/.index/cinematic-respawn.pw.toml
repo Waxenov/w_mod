@@ -1,0 +1,18 @@
+filename = 'cinematic_respawn-1.21.1-neoforge-1.3.0.jar'
+name = 'Cinematic Respawn'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Cinematic Respawn 1.3.0'
+
+[download]
+hash = '0208d8a84f4fca0b7c318b7466e26fe66fedb753'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8649511
+project-id = 1579853

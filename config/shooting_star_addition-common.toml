@@ -1,0 +1,153 @@
+#Halley: a comet called down onto your crosshair. It comes in low over the horizon in front of
+#you, touches down beyond the mark, ploughs a trench toward you and detonates on the mark.
+[skill]
+	#Seconds before Halley can be fired again (the other Stellar Remote skills use 60).
+	#Creative mode always uses 1 second, like the other skills.
+	# Default: 60
+	# Range: 1 ~ 3600
+	cooldown_seconds = 60
+	#How far away (in blocks) your crosshair can place the mark.
+	# Default: 420
+	# Range: 32 ~ 1024
+	reach = 420
+
+#The shape of the scar. Bigger numbers mean more blocks to cut, so very large values cost more time
+#on the server tick the comet lands.
+[impact]
+	#Length of the trench the comet ploughs before it reaches the mark, in blocks.
+	# Default: 240
+	# Range: 32 ~ 640
+	trench_length = 240
+	#Width of the trench where it meets the crater, in blocks (it starts narrower).
+	# Default: 30
+	# Range: 8 ~ 64
+	trench_width = 30
+	#Depth of the trench at its deepest, in blocks.
+	# Default: 22
+	# Range: 2 ~ 64
+	trench_depth = 22
+	#Radius of the crater on the mark, in blocks. Everything inside it is erased.
+	# Default: 56
+	# Range: 12 ~ 128
+	crater_radius = 56
+	#Depth of the crater, in blocks.
+	# Default: 24
+	# Range: 4 ~ 96
+	crater_depth = 24
+	#How far the shock wave throws, hurts and frosts things, as a multiple of the crater radius.
+	# Default: 2.6
+	# Range: 1.0 ~ 5.0
+	blast_reach = 2.6
+	#How many chunks of the trench are cut each tick (the crater cuts twice as many). Higher finishes
+	#big strikes sooner but makes each tick heavier; lower is gentler on a busy server.
+	# Default: 12
+	# Range: 1 ~ 64
+	chunks_per_tick = 12
+
+#What the strike leaves behind.
+[world]
+	#Cut the trench and crater into the world. If false the strike is purely visual and
+	#only hurts creatures (handy on servers that protect their terrain).
+	carve_terrain = true
+	#Leave the glowing comet heart crystal in the crater and the frozen trail down the trench.
+	leave_comet_heart = true
+	#Paint rays of snow out from the crater, like ejecta round a fresh lunar crater.
+	frost_rays = true
+
+#Safety.
+[safety]
+	#Lift a creative-mode caster clear if they stand inside the crater, like the other skills do.
+	evacuate_creative_caster = true
+
+#Luna: the Stellar Remote shuts the Earth system down and brings the moon down onto your crosshair. It
+#drives itself half into the ground, shoving the land up round it, and stays: a moon of moon cheese with
+#one block of molten moon cheese at its very heart.
+[moonfall]
+	#Seconds before Luna can be fired again. Creative mode always uses 1 second, like the other skills.
+	# Default: 120
+	# Range: 1 ~ 3600
+	cooldown_seconds = 120
+	#How far away (in blocks) your crosshair can place the mark.
+	# Default: 420
+	# Range: 32 ~ 1024
+	reach = 420
+	#Only answer at night. By default (false) it can be called any time: like Halley, the sky falls
+	#to night for the strike (only what players see; the world's real time is untouched).
+	require_night = false
+
+#How big it all is. Anything from a pebble to a monster works, but every block of moon and ground has to be
+#placed or cut: a radius-200 moon is ~33 million blocks and will take the server a long while (it is
+#built a few chunks per tick, so the game keeps running). Very big moons also stick out of the build height.
+[moonfall_size]
+	#Radius of the moon, in blocks (the default is 96 blocks across).
+	# Default: 48
+	# Range: 2 ~ 200
+	moon_radius = 48
+	#Radius of the impact zone, in blocks: the crater blasted out round the moon, out to the crest of its
+	#rim. Everything inside it is erased.
+	# Default: 110
+	# Range: 4 ~ 320
+	impact_radius = 110
+	#How high the crater's rim stands over the old ground at its crest, in blocks (0: none; the
+	#slabs of crust buckled up against the moon reach most of that over the crater's floor).
+	# Default: 9
+	# Range: 0 ~ 96
+	rim_height = 9
+	#How much of the moon's height ends up driven down into the crater, in percent.
+	# Default: 70
+	# Range: 0 ~ 90
+	buried_percent = 70
+	#How far the shock wave throws and hurts things, as a multiple of the impact zone's radius.
+	# Default: 3.0
+	# Range: 1.0 ~ 6.0
+	blast_reach = 3.0
+	#How many chunks of ground and moon are cut or built each tick. Higher finishes big moons
+	#sooner but makes those ticks longer.
+	# Default: 8
+	# Range: 1 ~ 64
+	chunks_per_tick = 8
+
+#What the moonfall leaves behind.
+[moonfall_world]
+	#Change the land and leave the moon in the world. If false the moonfall is purely visual and
+	#only hurts creatures (handy on servers that protect their terrain).
+	carve_terrain = true
+	#Put one block of molten moon cheese at the very centre of the moon.
+	molten_core = true
+
+#Moon cheese. Ordinary moon cheese is eaten like a golden carrot. Molten moon cheese gives the effects below.
+[moon_cheese]
+	#Hearts you have while the molten moon cheese lasts (vanilla players have 10).
+	# Default: 500
+	# Range: 1 ~ 512
+	molten_hearts = 500
+	#Strength level it gives (255 = Strength CCLV, the most there is).
+	# Default: 255
+	# Range: 1 ~ 255
+	molten_strength = 255
+	#How long the molten moon cheese lasts, in minutes.
+	# Default: 10
+	# Range: 1 ~ 120
+	molten_minutes = 10
+
+#The Stellar Remote itself.
+[stellar_remote]
+	#Switches off the cooldown of every skill on the Stellar Remote - The Shooting Star's own as well
+	#as Halley and Luna - for every player: each can be cast again straight away. Be careful with this:
+	#it lets the most destructive skills be cast back to back. The remote's menu (H) shows whether it is on.
+	no_cooldown = false
+	#The most Power any player can cast a skill with, as a multiple of that skill's default power
+	#(for Halley and Luna, 1 is their configured size above and 10 is the slider's end). Every skill on the remote,
+	#The Shooting Star's own as well. 0 (the default) means no limit.
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	max_power = 0.0
+	#The most Damage any skill on the remote can do with each hit. A cast with the slider at
+	#infinity (which erases whatever it hits) is held to this too. 0 (the default) means no limit.
+	# Default: 0.0
+	# Range: 0.0 ~ 100000.0
+	max_damage = 0.0
+	#The fastest Speed any skill on the remote can be cast at (the slider goes from 0.3 to 3).
+	# Default: 3.0
+	# Range: 0.3 ~ 3.0
+	max_speed = 3.0

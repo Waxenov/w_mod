@@ -1,0 +1,18 @@
+filename = 'create_easy_structures-0.2a-neoforge-1.21.1.jar'
+name = 'Create: Easy Structures'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_easy_structures-0.2a-neoforge-1.21.1.jar'
+
+[download]
+hash = '5878bdf8facd954cce7da3a55ab1d5274fe4ef6d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6344382
+project-id = 949158

@@ -1,0 +1,21 @@
+filename = 'Design-n-Decor-1.21.1-2.0.0.jar'
+name = "Create: Design n' Decor"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = 'dd0b528b798ecb0875ebde4f40d3ff59ee75718b677457749d5506353e45760477bb2990309153b048f200cdfdc44b5953ef1ad959c186625ed59ae890042750'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/x49wilh8/versions/J8SpfWTT/Design-n-Decor-1.21.1-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'x49wilh8'
+version = 'J8SpfWTT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

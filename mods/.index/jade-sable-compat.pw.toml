@@ -1,0 +1,21 @@
+filename = 'sablejade-1.3.0.jar'
+name = 'Jade Sable Compat'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sablejade-1.3.0.jar'
+
+[download]
+hash = 'beb78d81a4d5768780c8566fa869ced5dbe08263'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8681404
+project-id = 1530988
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'OPTIONAL'

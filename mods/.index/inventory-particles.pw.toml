@@ -1,0 +1,33 @@
+filename = 'InventoryParticles-3.0.0+1.21.1+neoforge.jar'
+name = 'Inventory Particles'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[neoforge/1.21.1] Inventory Particles v3.0.0'
+
+[download]
+hash = 'f2049fe652d7b14b1264f607425d7af66ad3d9d5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8648696
+project-id = 1339689
+
+[[x-prismlauncher-dependencies]]
+addonId = '1426644'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1120746'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1399257'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'OPTIONAL'
